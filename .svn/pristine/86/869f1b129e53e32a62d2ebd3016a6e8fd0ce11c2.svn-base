@@ -1,9 +1,0 @@
-[database configuration]
-dbname = rovagnati
-user = root
-[password = GzaSVu7v]
-password = 
-host = 127.0.0.1
-port = 3306
-driver = pdo_mysql
-
