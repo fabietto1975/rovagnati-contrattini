@@ -1,0 +1,659 @@
+2016-09-30T10:54:33+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225673
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1475225673
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 284
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2016-09-30T10:54:33+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225673
+    [result] => Array
+        (
+            [request_time] => Fri Sep 30 10:54:33 CEST 2016
+            [code] => 200
+            [response_time] => Fri Sep 30 10:54:33 CEST 2016
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(503): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->update(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\BaseAdvice::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(24): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(63): backend\app\dao\ContrattinoDAO->update(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(89): backend\app\service\ContrattinoService->update(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->putAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(42): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->putAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2016-09-30T10:54:46+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225686
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1475225686
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 284
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2016-09-30T10:54:46+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225686
+    [result] => Array
+        (
+            [request_time] => Fri Sep 30 10:54:46 CEST 2016
+            [code] => 200
+            [response_time] => Fri Sep 30 10:54:46 CEST 2016
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(261): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(74): backend\app\service\ContrattinoService->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2016-09-30T10:54:52+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225692
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [data_inserimento] => 2016-09-28
+                    [id_utente_crea] => 23122
+                    [tipo_contratto] => SERIJAKALA_FATTURATO
+                    [id_cliente] => 505102
+                    [id_fascia] => 2
+                    [id_premio_incremento_fatturato] => 6
+                )
+
+            [format] => json
+            [datetime] => 1475225692
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 285
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2016-09-30T10:54:52+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225692
+    [result] => Array
+        (
+            [request_time] => Fri Sep 30 10:54:52 CEST 2016
+            [code] => 200
+            [response_time] => Fri Sep 30 10:54:52 CEST 2016
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(261): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(74): backend\app\service\ContrattinoService->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2016-09-30T10:56:04+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225764
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [data_inserimento] => 2016-09-30
+                    [id_utente_crea] => 23122
+                    [tipo_contratto] => SERIJAKALA_FATTURATO
+                    [id_cliente] => 505102
+                    [id_fascia] => 2
+                    [id_premio_incremento_fatturato] => 6
+                )
+
+            [format] => json
+            [datetime] => 1475225764
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 221
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2016-09-30T10:56:04+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225764
+    [result] => Array
+        (
+            [request_time] => Fri Sep 30 10:56:04 CEST 2016
+            [code] => 200
+            [response_time] => Fri Sep 30 10:56:04 CEST 2016
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(261): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(74): backend\app\service\ContrattinoService->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2016-09-30T10:57:46+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225866
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [data_inserimento] => 2016-09-30
+                    [id_utente_crea] => 23122
+                    [tipo_contratto] => SERIJAKALA_FATTURATO
+                    [id_cliente] => 505102
+                    [id_fascia] => 2
+                    [id_premio_incremento_fatturato] => 6
+                )
+
+            [format] => json
+            [datetime] => 1475225866
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 221
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2016-09-30T10:58:51+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225931
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [data_inserimento] => 2016-09-30
+                    [id_utente_crea] => 23122
+                    [tipo_contratto] => SERIJAKALA_FATTURATO
+                    [id_cliente] => 505102
+                    [id_fascia] => 2
+                    [id_premio_incremento_fatturato] => 6
+                )
+
+            [format] => json
+            [datetime] => 1475225931
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 221
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2016-09-30T10:58:51+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475225931
+    [result] => Array
+        (
+            [request_time] => Fri Sep 30 10:58:51 CEST 2016
+            [code] => 200
+            [response_time] => Fri Sep 30 10:58:51 CEST 2016
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 66
+                            [id_cliente] => 505102
+                            [ragione_sociale] => DOMAR SRL
+                            [codice_cliente] => 15183
+                            [data_creazione] => 2016-09-30 10:58:51
+                            [data_aggiornamento] => 
+                            [id_utente_crea] => 23122
+                            [cod_dipendente_crea] => 11186
+                            [nome_dipendente_crea] => GIOVETTI MASSIMO
+                            [cod_dipendente_mod] => 
+                            [nome_dipendente_mod] => 
+                            [id_utente_mod] => 
+                            [stato] => 0
+                            [tipo_contratto] => SERIJAKALA_FATTURATO
+                            [codice_fatturazione_totale] => 
+                            [codici_fatturazione] => 
+                            [liquidazione] => 
+                            [data_esportazione] => 
+                            [data_inserimento] => 2016-09-30 00:00:00
+                            [note_agente] => 
+                            [note_ispettore] => 
+                            [note_capoarea] => 
+                            [modalitaliquidazione] => 
+                            [tempisticadiliquidazione] => 
+                            [meseannoinizio] => 
+                            [meseannofine] => 
+                            [divisionidaconsiderare] => 
+                            [modalitadefinizioneobbiettivo] => 
+                            [modalitadefinizionepremio] => 
+                            [obbiettivo_valore_1] => 
+                            [obbiettivo_premio_1] => 
+                            [obbiettivo_valore_2] => 
+                            [obbiettivo_premio_2] => 
+                            [obbiettivo_valore_3] => 
+                            [obbiettivo_premio_3] => 
+                            [obbiettivo_valore_4] => 
+                            [obbiettivo_premio_4] => 
+                            [obbiettivo_valore_5] => 
+                            [obbiettivo_premio_5] => 
+                            [obbiettivo_qualificante_1] => 
+                            [obbiettivo_qualificante_2] => 
+                            [livello_obbiettivo_1] => 
+                            [livello_obbiettivo_2] => 
+                            [perc_target_totale_obb_qualificante] => 
+                            [obbiettivo_minimo_obb_qualificante] => 
+                            [premio1_obb_qualificante] => 
+                            [tipo1_obb_qualificante] => 
+                            [obbiettivo_ulteriore_obb_qualificante] => 
+                            [premio2_obb_qualificante] => 
+                            [tipo2_obb_qualificante] => 
+                            [supero1_tipoobbiettivo] => 
+                            [supero1_obbiettivi] => 
+                            [supero1_premio] => 
+                            [supero1_tipopremio] => 
+                            [supero2_tipoobbiettivo] => 
+                            [supero2_obbiettivi] => 
+                            [supero2_premio] => 
+                            [supero2_tipopremio] => 
+                            [supero3_tipoobbiettivo] => 
+                            [supero3_obbiettivi] => 
+                            [supero3_premio] => 
+                            [supero3_tipopremio] => 
+                            [supero4_tipoobbiettivo] => 
+                            [supero4_obbiettivi] => 
+                            [supero4_premio] => 
+                            [supero4_tipopremio] => 
+                            [supero5_tipoobbiettivo] => 
+                            [supero5_obbiettivi] => 
+                            [supero5_premio] => 
+                            [supero5_tipopremio] => 
+                            [tcs_livello_obbiettivo_1] => 
+                            [tcs_obbiettivo_1] => 
+                            [tcs_sconto_fattura_1] => 
+                            [tcs_livello_obbiettivo_2] => 
+                            [tcs_obbiettivo_2] => 
+                            [tcs_sconto_fattura_2] => 
+                            [tcs_livello_obbiettivo_3] => 
+                            [tcs_obbiettivo_3] => 
+                            [tcs_sconto_fattura_3] => 
+                            [tcs_livello_obbiettivo_4] => 
+                            [tcs_obbiettivo_4] => 
+                            [tcs_sconto_fattura_4] => 
+                            [tcs_livello_obbiettivo_5] => 
+                            [tcs_obbiettivo_5] => 
+                            [tcs_sconto_fattura_5] => 
+                            [id_fascia] => 2
+                            [id_premio_incremento_fatturato] => 6
+                            [descrizione_premio_incremento_fatturato] => FIFA 16 Xbox One
+                            [produttore_premio_incremento_fatturato] => EA
+                            [label_fascia_premio_incremento_fatturato] => + 700 Euro
+                            [id_premio_punti_1] => 
+                            [descrizione_premio_punti_1] => 
+                            [produttore_premio_punti_1] => 
+                            [punti_kg_1] => 
+                            [id_premio_punti_2] => 
+                            [descrizione_premio_punti_2] => 
+                            [produttore_premio_punti_2] => 
+                            [punti_kg_2] => 
+                            [id_premio_punti_3] => 
+                            [descrizione_premio_punti_3] => 
+                            [produttore_premio_punti_3] => 
+                            [punti_kg_3] => 
+                            [descrizione_wave] => 
+                            [tipologia_wave] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-09-30T11:01:06+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475226066
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [data_inserimento] => 2016-09-30
+                    [id_utente_crea] => 23122
+                    [tipo_contratto] => SERIJAKALA_FATTURATO
+                    [id_cliente] => 505102
+                    [id_premio_punti_1] => 27
+                    [id_premio_punti_2] => 27
+                    [id_premio_punti_3] => 27
+                )
+
+            [format] => json
+            [datetime] => 1475226066
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 311
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2016-09-30T11:01:06+02:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1475226066
+    [result] => Array
+        (
+            [request_time] => Fri Sep 30 11:01:06 CEST 2016
+            [code] => 200
+            [response_time] => Fri Sep 30 11:01:06 CEST 2016
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 67
+                            [id_cliente] => 505102
+                            [ragione_sociale] => DOMAR SRL
+                            [codice_cliente] => 15183
+                            [data_creazione] => 2016-09-30 11:01:06
+                            [data_aggiornamento] => 
+                            [id_utente_crea] => 23122
+                            [cod_dipendente_crea] => 11186
+                            [nome_dipendente_crea] => GIOVETTI MASSIMO
+                            [cod_dipendente_mod] => 
+                            [nome_dipendente_mod] => 
+                            [id_utente_mod] => 
+                            [stato] => 0
+                            [tipo_contratto] => SERIJAKALA_PUNTI
+                            [codice_fatturazione_totale] => 
+                            [codici_fatturazione] => 
+                            [liquidazione] => 
+                            [data_esportazione] => 
+                            [data_inserimento] => 2016-09-30 00:00:00
+                            [note_agente] => 
+                            [note_ispettore] => 
+                            [note_capoarea] => 
+                            [modalitaliquidazione] => 
+                            [tempisticadiliquidazione] => 
+                            [meseannoinizio] => 
+                            [meseannofine] => 
+                            [divisionidaconsiderare] => 
+                            [modalitadefinizioneobbiettivo] => 
+                            [modalitadefinizionepremio] => 
+                            [obbiettivo_valore_1] => 
+                            [obbiettivo_premio_1] => 
+                            [obbiettivo_valore_2] => 
+                            [obbiettivo_premio_2] => 
+                            [obbiettivo_valore_3] => 
+                            [obbiettivo_premio_3] => 
+                            [obbiettivo_valore_4] => 
+                            [obbiettivo_premio_4] => 
+                            [obbiettivo_valore_5] => 
+                            [obbiettivo_premio_5] => 
+                            [obbiettivo_qualificante_1] => 
+                            [obbiettivo_qualificante_2] => 
+                            [livello_obbiettivo_1] => 
+                            [livello_obbiettivo_2] => 
+                            [perc_target_totale_obb_qualificante] => 
+                            [obbiettivo_minimo_obb_qualificante] => 
+                            [premio1_obb_qualificante] => 
+                            [tipo1_obb_qualificante] => 
+                            [obbiettivo_ulteriore_obb_qualificante] => 
+                            [premio2_obb_qualificante] => 
+                            [tipo2_obb_qualificante] => 
+                            [supero1_tipoobbiettivo] => 
+                            [supero1_obbiettivi] => 
+                            [supero1_premio] => 
+                            [supero1_tipopremio] => 
+                            [supero2_tipoobbiettivo] => 
+                            [supero2_obbiettivi] => 
+                            [supero2_premio] => 
+                            [supero2_tipopremio] => 
+                            [supero3_tipoobbiettivo] => 
+                            [supero3_obbiettivi] => 
+                            [supero3_premio] => 
+                            [supero3_tipopremio] => 
+                            [supero4_tipoobbiettivo] => 
+                            [supero4_obbiettivi] => 
+                            [supero4_premio] => 
+                            [supero4_tipopremio] => 
+                            [supero5_tipoobbiettivo] => 
+                            [supero5_obbiettivi] => 
+                            [supero5_premio] => 
+                            [supero5_tipopremio] => 
+                            [tcs_livello_obbiettivo_1] => 
+                            [tcs_obbiettivo_1] => 
+                            [tcs_sconto_fattura_1] => 
+                            [tcs_livello_obbiettivo_2] => 
+                            [tcs_obbiettivo_2] => 
+                            [tcs_sconto_fattura_2] => 
+                            [tcs_livello_obbiettivo_3] => 
+                            [tcs_obbiettivo_3] => 
+                            [tcs_sconto_fattura_3] => 
+                            [tcs_livello_obbiettivo_4] => 
+                            [tcs_obbiettivo_4] => 
+                            [tcs_sconto_fattura_4] => 
+                            [tcs_livello_obbiettivo_5] => 
+                            [tcs_obbiettivo_5] => 
+                            [tcs_sconto_fattura_5] => 
+                            [id_fascia] => 
+                            [id_premio_incremento_fatturato] => 
+                            [descrizione_premio_incremento_fatturato] => 
+                            [produttore_premio_incremento_fatturato] => 
+                            [label_fascia_premio_incremento_fatturato] => 
+                            [id_premio_punti_1] => 27
+                            [descrizione_premio_punti_1] => Prova
+                            [produttore_premio_punti_1] => Prova
+                            [punti_kg_1] => 1
+                            [id_premio_punti_2] => 27
+                            [descrizione_premio_punti_2] => Prova
+                            [produttore_premio_punti_2] => Prova
+                            [punti_kg_2] => 1
+                            [id_premio_punti_3] => 27
+                            [descrizione_premio_punti_3] => Prova
+                            [produttore_premio_punti_3] => Prova
+                            [punti_kg_3] => 1
+                            [descrizione_wave] => 
+                            [tipologia_wave] => 
+                        )
+
+                )
+
+        )
+
+)
+

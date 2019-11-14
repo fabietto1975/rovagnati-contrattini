@@ -1,0 +1,13 @@
+[database configuration]
+
+dbname = dwh_rovagnati
+user = root
+
+[password = oNonZIQNj8kz67XfXRT0]  
+password = 
+[host = vlmysql2.valuelab.local]
+host = localhost
+port = 3306 
+    
+driver = pdo_mysql
+

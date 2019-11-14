@@ -1,0 +1,557 @@
+2017-01-18T15:22:48+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749367
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => image
+                    [2] => 505108
+                    [3] => 1
+                    [4] => ESTERNO
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [latitudine] => 23131
+                    [longitudine] => 1331
+                    [files] => Array
+                        (
+                            [image] => Array
+                                (
+                                    [name] => immagine
+                                    [type] => image/png
+                                    [tmp_name] => D:\xampp-5.6.3\tmp\phpCBC8.tmp
+                                    [error] => 0
+                                    [size] => 211723
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1484749367
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => multipart/form-data; boundary="----=_Part_2_864596941.1484749367771"
+                    [MIME-Version] => 1.0
+                    [Content-Length] => 212307
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-18T15:22:48+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749367
+    [result] => Array
+        (
+            [request_time] => Wed Jan 18 15:22:47 CET 2017
+            [code] => 500
+            [response_time] => Wed Jan 18 15:22:48 CET 2017
+            [version_number] => 1
+            [status] => fail
+            [message] => File immagine non recepito correttamente
+            [error] => File immagine non recepito correttamente
+        )
+
+)
+
+2017-01-18T15:23:12+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749392
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => image
+                    [2] => 505108
+                    [3] => 1
+                    [4] => ESTERNO
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [latitudine] => 23131
+                    [longitudine] => 1331
+                )
+
+            [format] => json
+            [datetime] => 1484749392
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => multipart/form-data; boundary="----=_Part_3_848870167.1484749392171"
+                    [MIME-Version] => 1.0
+                    [Content-Length] => 398
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-18T15:23:12+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749392
+    [result] => Array
+        (
+            [request_time] => Wed Jan 18 15:23:12 CET 2017
+            [code] => 500
+            [response_time] => Wed Jan 18 15:23:12 CET 2017
+            [version_number] => 1
+            [status] => fail
+            [message] => File immagine non recepito correttamente
+            [error] => File immagine non recepito correttamente
+        )
+
+)
+
+2017-01-18T15:23:37+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749417
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => image
+                    [2] => 505108
+                    [3] => 1
+                    [4] => ESTERNO
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [latitudine] => 23131
+                    [longitudine] => 1331
+                    [files] => Array
+                        (
+                            [210_agente_png] => Array
+                                (
+                                    [name] => 210_agente.png
+                                    [type] => image/x-png
+                                    [tmp_name] => D:\xampp-5.6.3\tmp\php8F0A.tmp
+                                    [error] => 0
+                                    [size] => 3614
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1484749417
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => multipart/form-data; boundary="----=_Part_4_257633253.1484749417835"
+                    [MIME-Version] => 1.0
+                    [Content-Length] => 4221
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-18T15:23:37+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749417
+    [result] => Array
+        (
+            [request_time] => Wed Jan 18 15:23:37 CET 2017
+            [code] => 500
+            [response_time] => Wed Jan 18 15:23:37 CET 2017
+            [version_number] => 1
+            [status] => fail
+            [message] => File immagine non recepito correttamente
+            [error] => File immagine non recepito correttamente
+        )
+
+)
+
+2017-01-18T15:23:39+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749419
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => image
+                    [2] => 505108
+                    [3] => 1
+                    [4] => ESTERNO
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [latitudine] => 23131
+                    [longitudine] => 1331
+                    [files] => Array
+                        (
+                            [210_agente_png] => Array
+                                (
+                                    [name] => 210_agente.png
+                                    [type] => image/x-png
+                                    [tmp_name] => D:\xampp-5.6.3\tmp\php93BE.tmp
+                                    [error] => 0
+                                    [size] => 3614
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1484749419
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => multipart/form-data; boundary="----=_Part_5_1534871794.1484749419027"
+                    [MIME-Version] => 1.0
+                    [Content-Length] => 4225
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-18T15:23:39+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749419
+    [result] => Array
+        (
+            [request_time] => Wed Jan 18 15:23:39 CET 2017
+            [code] => 500
+            [response_time] => Wed Jan 18 15:23:39 CET 2017
+            [version_number] => 1
+            [status] => fail
+            [message] => File immagine non recepito correttamente
+            [error] => File immagine non recepito correttamente
+        )
+
+)
+
+2017-01-18T15:24:06+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749446
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => image
+                    [2] => 505108
+                    [3] => 1
+                    [4] => ESTERNO
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [latitudine] => 23131
+                    [longitudine] => 1331
+                    [files] => Array
+                        (
+                            [210_agente_png] => Array
+                                (
+                                    [name] => 210_agente.png
+                                    [type] => image/x-png
+                                    [tmp_name] => D:\xampp-5.6.3\tmp\phpFF3A.tmp
+                                    [error] => 0
+                                    [size] => 3614
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1484749446
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => multipart/form-data; boundary="----=_Part_6_2066175997.1484749446546"
+                    [MIME-Version] => 1.0
+                    [Content-Length] => 4225
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-18T15:24:23+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749463
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => image
+                    [2] => 505108
+                    [3] => 1
+                    [4] => ESTERNO
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [latitudine] => 23131
+                    [longitudine] => 1331
+                    [files] => Array
+                        (
+                            [immagine] => Array
+                                (
+                                    [name] => 210_agente.png
+                                    [type] => image/x-png
+                                    [tmp_name] => D:\xampp-5.6.3\tmp\php408A.tmp
+                                    [error] => 0
+                                    [size] => 3614
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1484749463
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => multipart/form-data; boundary="----=_Part_7_672450229.1484749463267"
+                    [MIME-Version] => 1.0
+                    [Content-Length] => 4215
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-18T15:24:34+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749474
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => image
+                    [2] => 505108
+                    [3] => 1
+                    [4] => ESTERNO
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [latitudine] => 23131
+                    [longitudine] => 1331
+                    [files] => Array
+                        (
+                            [immagine] => Array
+                                (
+                                    [name] => 210_agente.png
+                                    [type] => image/x-png
+                                    [tmp_name] => D:\xampp-5.6.3\tmp\php6CCB.tmp
+                                    [error] => 0
+                                    [size] => 3614
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1484749474
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => multipart/form-data; boundary="----=_Part_8_742590877.1484749474595"
+                    [MIME-Version] => 1.0
+                    [Content-Length] => 4215
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-18T15:24:34+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749474
+    [result] => Array
+        (
+            [request_time] => Wed Jan 18 15:24:34 CET 2017
+            [code] => 500
+            [response_time] => Wed Jan 18 15:24:34 CET 2017
+            [version_number] => 1
+            [status] => fail
+            [message] => Errore nel caricamento dell'immagine
+            [error] => Errore nel caricamento dell'immagine : 210_agente.png ha estensione non ammessa
+        )
+
+)
+
+2017-01-18T15:24:47+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749487
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => image
+                    [2] => 505108
+                    [3] => 1
+                    [4] => ESTERNO
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [latitudine] => 23131
+                    [longitudine] => 1331
+                    [files] => Array
+                        (
+                            [immagine] => Array
+                                (
+                                    [name] => immagine
+                                    [type] => image/x-png
+                                    [tmp_name] => D:\xampp-5.6.3\tmp\php9EAA.tmp
+                                    [error] => 0
+                                    [size] => 3614
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1484749487
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => multipart/form-data; boundary="----=_Part_9_1222948751.1484749487354"
+                    [MIME-Version] => 1.0
+                    [Content-Length] => 4207
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-18T15:24:47+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749487
+    [result] => Array
+        (
+            [request_time] => Wed Jan 18 15:24:47 CET 2017
+            [code] => 500
+            [response_time] => Wed Jan 18 15:24:47 CET 2017
+            [version_number] => 1
+            [status] => fail
+            [message] => Errore nel caricamento dell'immagine
+            [error] => Errore nel caricamento dell'immagine : immagine ha estensione non ammessa
+        )
+
+)
+
+2017-01-18T15:25:09+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749509
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => image
+                    [2] => 505108
+                    [3] => 1
+                    [4] => ESTERNO
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [latitudine] => 23131
+                    [longitudine] => 1331
+                    [files] => Array
+                        (
+                            [immagine] => Array
+                                (
+                                    [name] => immagine
+                                    [type] => image/png
+                                    [tmp_name] => D:\xampp-5.6.3\tmp\phpF69F.tmp
+                                    [error] => 0
+                                    [size] => 3614
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1484749509
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => multipart/form-data; boundary="----=_Part_10_884626865.1484749509872"
+                    [MIME-Version] => 1.0
+                    [Content-Length] => 4205
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-18T15:25:09+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1484749509
+    [result] => Array
+        (
+            [request_time] => Wed Jan 18 15:25:09 CET 2017
+            [code] => 200
+            [response_time] => Wed Jan 18 15:25:09 CET 2017
+            [version_number] => 1
+            [status] => success
+            [upload] => OK
+        )
+
+)
+

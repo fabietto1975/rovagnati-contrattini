@@ -1,0 +1,1159 @@
+2016-09-12T16:03:50+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689021
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 519473
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 5
+                    [7] => F12
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689021
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:04:06+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689021
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 16:03:41 CEST 2016
+            [code] => 404
+            [response_time] => Mon Sep 12 16:04:06 CEST 2016
+            [status] => fail
+            [message] => nessun dato trovato
+            [error] => NO_DATA
+        )
+
+)
+
+2016-09-12T16:04:49+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689089
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 519473
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 5
+                    [7] => F12
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689089
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:04:52+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689089
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 16:04:49 CEST 2016
+            [code] => 404
+            [response_time] => Mon Sep 12 16:04:52 CEST 2016
+            [status] => fail
+            [message] => nessun dato trovato
+            [error] => NO_DATA
+        )
+
+)
+
+2016-09-12T16:05:27+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689127
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 519473
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 5
+                    [7] => F12
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689127
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:05:30+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689127
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 16:05:27 CEST 2016
+            [code] => 404
+            [response_time] => Mon Sep 12 16:05:30 CEST 2016
+            [status] => fail
+            [message] => nessun dato trovato
+            [error] => NO_DATA
+        )
+
+)
+
+2016-09-12T16:06:18+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689178
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 562688
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 5
+                    [7] => 821
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689178
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:06:29+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689178
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 16:06:18 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 16:06:29 CEST 2016
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [ct] => 2014828
+                            [cf] => 2014828
+                            [cod_prodotto] => 821
+                            [totfattnetto] => 142.380
+                            [totfattlordo] => 142.380
+                            [sconto] => 0.0000000
+                            [kgfatturati] => 5.090
+                            [prezzokg] => 27.9724951
+                        )
+
+                )
+
+        )
+
+)
+
+2016-09-12T16:11:10+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689470
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 562688
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 5
+                    [7] => 821
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689470
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:11:58+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689518
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 562688
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 5
+                    [7] => 821
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689518
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:12:00+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689518
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 16:11:58 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 16:12:00 CEST 2016
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [ct] => 2014828
+                            [cf] => 2014828
+                            [cod_prodotto] => 821
+                            [prodotto] => CRUDO PG SELEZIONE 100g
+                            [totfattnetto] => 142.380
+                            [totfattlordo] => 142.380
+                            [sconto] => 0.0000000
+                            [kgfatturati] => 5.090
+                            [prezzokg] => 27.9724951
+                        )
+
+                )
+
+        )
+
+)
+
+2016-09-12T16:12:35+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689555
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 562688
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 1
+                    [7] => GA
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689555
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:12:35+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689555
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 16:12:35 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 16:12:35 CEST 2016
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [ct] => 2014828
+                            [cf] => 2014828
+                            [cod_divisione] => GA
+                            [divisione] => GASTRONOMIA
+                            [totfattnetto] => 110.100
+                            [totfattlordo] => 170.420
+                            [sconto] => 35.3949067
+                            [kgfatturati] => 14.668
+                            [prezzokg] => 11.6184892
+                        )
+
+                )
+
+        )
+
+)
+
+2016-09-12T16:13:16+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689596
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 562688
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 1
+                    [7] => GA
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689596
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:13:16+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689596
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 16:13:16 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 16:13:16 CEST 2016
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [ct] => 2014828
+                            [cf] => 2014828
+                            [cod_divisione] => GA
+                            [divisione] => GASTRONOMIA
+                            [totfattnetto] => 110.100
+                            [totfattlordo] => 170.420
+                            [sconto] => 35.3949067
+                            [kgfatturati] => 14.668
+                            [prezzokg] => 11.6184892
+                        )
+
+                )
+
+        )
+
+)
+
+2016-09-12T16:14:06+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689646
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 562688
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 1
+                    [7] => GA
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689646
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:14:06+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689646
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 16:14:06 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 16:14:06 CEST 2016
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [ct] => 2014828
+                            [cf] => 2014828
+                            [id_livello] => GA
+                            [descrizione_livello] => GASTRONOMIA
+                            [totfattnetto] => 110.100
+                            [totfattlordo] => 170.420
+                            [sconto] => 35.3949067
+                            [kgfatturati] => 14.668
+                            [prezzokg] => 11.6184892
+                        )
+
+                )
+
+        )
+
+)
+
+2016-09-12T16:14:24+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689664
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 562688
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 5
+                    [7] => 821
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689664
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:14:24+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689664
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 16:14:24 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 16:14:24 CEST 2016
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [ct] => 2014828
+                            [cf] => 2014828
+                            [id_livello] => 821
+                            [descrizione_livello] => CRUDO PG SELEZIONE 100g
+                            [totfattnetto] => 142.380
+                            [totfattlordo] => 142.380
+                            [sconto] => 0.0000000
+                            [kgfatturati] => 5.090
+                            [prezzokg] => 27.9724951
+                        )
+
+                )
+
+        )
+
+)
+
+2016-09-12T16:14:37+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689677
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 562688
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 1
+                    [7] => GA
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1473689677
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T16:14:37+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473689677
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 16:14:37 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 16:14:37 CEST 2016
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [ct] => 2014828
+                            [cf] => 2014828
+                            [id_livello] => GA
+                            [descrizione_livello] => GASTRONOMIA
+                            [totfattnetto] => 110.100
+                            [totfattlordo] => 170.420
+                            [sconto] => 35.3949067
+                            [kgfatturati] => 14.668
+                            [prezzokg] => 11.6184892
+                        )
+
+                )
+
+        )
+
+)
+
+2016-09-12T17:30:17+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694217
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                    [2] => scontoobbiettivotargetspeciali
+                    [3] => 5
+                    [4] => 118
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [obbiettivo] => 3
+                    [premio] => 10
+                )
+
+            [format] => json
+            [datetime] => 1473694217
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T17:30:18+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694217
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 17:30:17 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 17:30:18 CEST 2016
+            [status] => success
+            [sconto] => 2.29
+        )
+
+)
+
+2016-09-12T17:31:08+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694268
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                    [2] => scontoobbiettivotargetspeciali
+                    [3] => 5
+                    [4] => 118
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [obbiettivo] => 1
+                    [premio] => 10
+                )
+
+            [format] => json
+            [datetime] => 1473694268
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T17:31:08+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694268
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 17:31:08 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 17:31:08 CEST 2016
+            [status] => success
+            [sconto] => 2.29
+        )
+
+)
+
+2016-09-12T17:31:11+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694271
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                    [2] => scontoobbiettivotargetspeciali
+                    [3] => 5
+                    [4] => 118
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [obbiettivo] => 2
+                    [premio] => 10
+                )
+
+            [format] => json
+            [datetime] => 1473694271
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T17:31:11+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694271
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 17:31:11 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 17:31:11 CEST 2016
+            [status] => success
+            [sconto] => 2.29
+        )
+
+)
+
+2016-09-12T17:31:49+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694309
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                    [2] => scontoobbiettivotargetspeciali
+                    [3] => 1
+                    [4] => 118
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [obbiettivo] => 2
+                    [premio] => 10
+                )
+
+            [format] => json
+            [datetime] => 1473694309
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T17:31:49+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694309
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 17:31:49 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 17:31:49 CEST 2016
+            [status] => success
+            [sconto] => 10
+        )
+
+)
+
+2016-09-12T17:31:56+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694316
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                    [2] => scontoobbiettivotargetspeciali
+                    [3] => 2
+                    [4] => 118
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [obbiettivo] => 2
+                    [premio] => 10
+                )
+
+            [format] => json
+            [datetime] => 1473694316
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T17:31:56+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694316
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 17:31:56 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 17:31:56 CEST 2016
+            [status] => success
+            [sconto] => 22.9
+        )
+
+)
+
+2016-09-12T17:32:24+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694344
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                    [2] => scontoobbiettivotargetspeciali
+                    [3] => 1
+                    [4] => 118
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [obbiettivo] => 2
+                    [premio] => 10
+                )
+
+            [format] => json
+            [datetime] => 1473694344
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T17:32:24+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694344
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 17:32:24 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 17:32:24 CEST 2016
+            [status] => success
+            [sconto] => 10
+        )
+
+)
+
+2016-09-12T17:32:34+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694354
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                    [2] => scontoobbiettivotargetspeciali
+                    [3] => 1
+                    [4] => 118
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [obbiettivo] => 2
+                    [premio] => 10
+                )
+
+            [format] => json
+            [datetime] => 1473694354
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T17:32:34+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694354
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 17:32:34 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 17:32:34 CEST 2016
+            [status] => success
+            [sconto] => 10
+        )
+
+)
+
+2016-09-12T17:32:43+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694362
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                    [2] => scontoobbiettivotargetspeciali
+                    [3] => 1
+                    [4] => 118
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [obbiettivo] => 2
+                    [premio] => 10
+                )
+
+            [format] => json
+            [datetime] => 1473694362
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T17:32:43+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694362
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 17:32:42 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 17:32:43 CEST 2016
+            [status] => success
+            [sconto] => 10
+        )
+
+)
+
+2016-09-12T17:33:24+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694404
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                    [2] => scontoobbiettivotargetspeciali
+                    [3] => 1
+                    [4] => 118
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [obbiettivo] => 2
+                    [premio] => 10
+                )
+
+            [format] => json
+            [datetime] => 1473694404
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-12T17:33:24+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1473694404
+    [result] => Array
+        (
+            [request_time] => Mon Sep 12 17:33:24 CEST 2016
+            [code] => 200
+            [response_time] => Mon Sep 12 17:33:24 CEST 2016
+            [status] => success
+            [sconto] => 10
+        )
+
+)
+

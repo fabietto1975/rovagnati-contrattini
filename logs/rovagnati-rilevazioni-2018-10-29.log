@@ -1,0 +1,330 @@
+2018-10-29T18:39:17+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1540834757
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => wavecorrente
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1540834757
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-10-29T18:39:17+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1540834757
+    [result] => Array
+        (
+            [request_time] => Mon Oct 29 18:39:17 CET 2018
+            [code] => 404
+            [response_time] => Mon Oct 29 18:39:17 CET 2018
+            [version_number] => 1
+            [status] => fail
+            [message] => wave corrente non trovata
+            [error] => NO_DATA
+        )
+
+)
+
+2018-10-29T18:41:22+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => 
+            [verb] => GET
+            [parameters] => 
+            [format] => 
+            [datetime] => 
+            [httpheaders] => 
+        )
+
+)
+
+2018-10-29T18:41:22+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 
+    [result] => Array
+        (
+            [request_time] => Thu Jan 1 1:00:00 CET 1970
+            [status] => fail
+            [message] => Bad Request
+        )
+
+)
+
+2018-10-29T18:41:30+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1540834889
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1540834889
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-10-29T18:43:46+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1540835026
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1540835026
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-10-29T18:45:01+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1540835101
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1540835101
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-10-29T18:45:02+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1540835101
+    [result] => Array
+        (
+            [request_time] => Mon Oct 29 18:45:01 CET 2018
+            [code] => 200
+            [response_time] => Mon Oct 29 18:45:02 CET 2018
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505100
+                            [cod_cli] => 91
+                            [rag_sociale] => ROVAGNATI SPA C/O STEF BENELUX
+                            [cod_cf] => 91
+                            [desc_cf] => ROVAGNATI SPA C/O STEF BENELUX
+                            [cod_centrale] => 993
+                            [desc_centrale] => GRUPPO CLIENTI INFRAGRUPPO
+                            [cod_gruppo] => 993
+                            [desc_gruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [sotto_gruppo] => 993
+                            [desc_sottogruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [ct] => 91
+                            [desc_cliente_totale] => ROVAGNATI SPA  (BELGIO)
+                            [sottocanale] => IES
+                            [canale] => INT
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 11316
+                            [nome_agente] => AGENTE EUROPA
+                            [cod_ispettore] => 11319
+                            [nome_ispettore] => FRANZ ( EUROPA )
+                            [cod_capo_area] => 9363
+                            [desc_capo_area] => AREA INTERNATIONAL
+                            [indirizzo] => AVENUE ZENOBE GRANNE 13
+                            [cap] => 1480
+                            [provincia_nazione] => BEL
+                            [nazione] => BE
+                            [categoria_merceologica] => AZ
+                            [desc_cat_merceologica] => Azienda Alimentare
+                            [localita] => SAINTES BELGIUM
+                            [latitudine] => 0
+                            [longitudine] => 0
+                            [latitudine_rilevata] => 
+                            [longitudine_rilevata] => 
+                            [id_agente] => 23383
+                            [id_profilo] => 3
+                            [profilo] => RISTORANTE
+                        )
+
+                )
+
+        )
+
+)
+
+2018-10-29T18:45:28+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1540835127
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505120
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1540835127
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-10-29T18:45:28+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1540835127
+    [result] => Array
+        (
+            [request_time] => Mon Oct 29 18:45:27 CET 2018
+            [code] => 200
+            [response_time] => Mon Oct 29 18:45:28 CET 2018
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505120
+                            [cod_cli] => 11291
+                            [rag_sociale] => MASTRAPASQUA ANTONIO
+                            [cod_cf] => 11291
+                            [desc_cf] => MASTRAPASQUA ANTONIO
+                            [cod_centrale] => 998
+                            [desc_centrale] => GRUPPO CLIENTI DETTAGLIO
+                            [cod_gruppo] => 272
+                            [desc_gruppo] => GRUPPO CLIENTI DETTAGLIO
+                            [sotto_gruppo] => 273
+                            [desc_sottogruppo] => GRUPPO CLIENTI DETTAGLIO
+                            [ct] => 11291
+                            [desc_cliente_totale] => MASTRAPASQUA ANTONIO
+                            [sottocanale] => DET
+                            [canale] => DET
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 0
+                            [nome_agente] => SENZA AREA
+                            [cod_ispettore] => 0
+                            [nome_ispettore] => SENZA AREA
+                            [cod_capo_area] => 0
+                            [desc_capo_area] => SENZA AREA
+                            [indirizzo] => VIA DON DAVIDE ALBERTARIO  68
+                            [cap] => 70033
+                            [provincia_nazione] => BA
+                            [nazione] => IT
+                            [categoria_merceologica] => 
+                            [desc_cat_merceologica] => .
+                            [localita] => CORATO
+                            [latitudine] => 41,145400000000002
+                            [longitudine] => 16,4117
+                            [latitudine_rilevata] => 
+                            [longitudine_rilevata] => 
+                            [id_agente] => 23299
+                            [id_profilo] => 0
+                            [profilo] => 
+                        )
+
+                )
+
+        )
+
+)
+

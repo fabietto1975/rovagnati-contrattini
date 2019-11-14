@@ -1,0 +1,59 @@
+<?php
+
+namespace backend\app\rest\controllers;
+
+use backend\common\rest\controllers\AbstractController;
+use backend\app\service\ProdottoRovagnatiService;
+
+
+
+class ProdottoRovagnatiController extends AbstractController {
+
+    private $prodottoRovagnatiService;
+
+    public function __construct($request) {
+        parent::__construct($request);
+        $this->prodottoRovagnatiService = new ProdottoRovagnatiService();
+    }
+
+    public function getAction() {
+
+        if (isset($this->request->url_elements [2])) {
+            $action = $this->request->url_elements [2];
+            if ($action == 'livello') {
+                $id_livello = $this->request->url_elements [3];
+                $res = $this->prodottoRovagnatiService->readProdottoRovagnatiPerLivello($id_livello);
+                $message = null;
+                if (isset($res['error'])) {
+                    $this->data['code'] = AbstractController::HTTP_CODE_NOTFOUND;
+                    $message = $res['message'];
+                }
+                $this->getResultData($res, 'prodottorovagnati', $message);
+            } else {
+                //by id
+            }
+        } else {
+            $res = $this->prodottoRovagnatiService->read();
+            $message = null;
+            if (isset($res['error'])) {
+                $this->data['code'] = AbstractController::HTTP_CODE_NOTFOUND;
+                $message = $res['message'];
+            }
+            $this->getResultData($res, 'prodottorovagnati', $message);
+        }
+        return $this->data;
+    }
+
+    public function postAction() {
+        
+    }
+
+    public function deleteAction() {
+        
+    }
+
+    public function putAction() {
+        
+    }
+
+}

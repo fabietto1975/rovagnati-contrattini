@@ -1,0 +1,51 @@
+<?php
+
+namespace backend\app\service;
+
+use backend\app\dao\ContrattinoDAO;
+
+class ContrattinoService {
+
+    private $contrattinoDAO;
+
+    public function __construct() {
+        $this->contrattinoDAO = new ContrattinoDAO();
+    }
+    
+        
+    public function readByUser($id_user){
+        $res = $this->contrattinoDAO->readByUser($id_user);
+        if ($res==null){
+            return array(
+                'status' => 'fail',
+                'message' => 'nessun contrattino trovato',
+                'error' => 'NO_DATA'
+            );
+        } 
+        return array(
+            'res' => $res,
+            'status' => 'success'
+        );
+
+    }
+    
+    public function readById($id){
+        $res = $this->contrattinoDAO->readByID($id);
+        if ($res==null){
+            return array(
+                'status' => 'fail',
+                'message' => 'nessun contrattino trovato',
+                'error' => 'NO_DATA'
+            );
+        } 
+        return array(
+            'res' => $res,
+            'status' => 'success'
+        );
+
+    }
+
+    
+    
+
+}

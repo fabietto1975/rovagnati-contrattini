@@ -1,0 +1,433 @@
+define({ "api": [
+  {
+    "type": "get",
+    "url": "/rest/rilevazione/:id_cliente/:id_rilevazione",
+    "title": "(b) Richiesta dati relativi scheda di rilevazione concorrenza",
+    "name": "Rilevazione",
+    "group": "Rilevazione",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "String",
+            "allowedValues": [
+              "'success'",
+              "'fail'"
+            ],
+            "optional": false,
+            "field": "status",
+            "description": "<p>Esito della richiesta .</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<p>Status code HTTP</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "request_time",
+            "description": "<p>Timestamp relativo alla ricezione della richiesta.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "response_time",
+            "description": "<p>Timestamp relativo alla generazione della risposta.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Object",
+            "optional": false,
+            "field": "rilevazione",
+            "description": "<p>Dati rilevazione</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "id",
+            "description": "<p>Id rilevazione</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "data_inizio",
+            "description": "<p>Data inizio validita' rilevazione (YYYY-mm-dd)</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "data_fine",
+            "description": "<p>Data termine validita' rilevazione (YYYY-mm-dd)</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "id_famiglia",
+            "description": "<p>Id famiglia prodotto (cat. merceologica) oggetto della rilevazione</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "descrizione_famiglia",
+            "description": "<p>Desc famiglia prodotto (cat. merceologica) oggetto della rilevazione</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "id_rilevazione",
+            "description": "<p>Id rilevazione</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "id_scheda_rilevazione",
+            "description": "<p>Id scheda di rilevazione</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "id_cliente",
+            "description": "<p>Id cliente</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "id_utente",
+            "description": "<p>Id utente (come da risposta /rest/users/login)</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "username",
+            "description": "<p>Username (come da risposta /rest/users/login)</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "categoria_merceologica",
+            "description": "<p>Categoria merceologica</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "\n{\n  \"request_time\": \"Mon May 30 19:13:55 CEST 2016\",\n  \"code\": 200,\n  \"response_time\": \"Mon May 30 19:13:55 CEST 2016\",\n  \"status\": \"success\",\n  \"rilevazione\": {\n      \"id\": \"4\",\n      \"data_inizio\": \"2015-04-01 00:00:00\",\n      \"data_fine\": \"2016-12-31 00:00:00\",\n      \"id_famiglia\": \"12\",\n      \"descrizione_famiglia\": \"PANCETTA\"\n  }",
+          "type": "json"
+        },
+        {
+          "title": "Success-Response:",
+          "content": "\n{\n  \"request_time\": \"Tue May 31 10:09:34 CEST 2016\",\n  \"code\": 200,\n  \"response_time\": \"Tue May 31 10:09:34 CEST 2016\",\n  \"status\": \"success\",\n  \"rilevazione\":    [\n {\n       \"id_rilevazione\": \"4\",\n       \"id_scheda_rilevazione\": \"0\",\n       \"id_cliente\": \"1\",\n       \"id_utente\": \"1\",\n       \"username\": \"user9002\",\n       \"categoria_merceologica\": \"PANCETTA\",\n       \"data_inizio_validita\": \"2015-04-01 00:00:00\",\n       \"data_fine_validita\": \"2016-12-31 00:00:00\",\n       \"data_creazione_scheda\": \"2016-05-30 00:00:00\",\n       \"data_ultimo_aggiornamento_scheda\": \"2016-05-30 00:00:00\",\n       \"id_dati_prodotto\": \"3\",\n       \"prezzo_prodotto\": \"2121.00\",\n       \"ordine_prodotto\": \"0\",\n       \"prodotto_in_promozione\": \"1\",\n       \"prodotto_top_seller\": \"1\"\n    },\n           {\n        \"id_rilevazione\": \"4\",\n        \"id_scheda_rilevazione\": \"0\",\n        \"id_cliente\": \"1\",\n        \"id_utente\": \"1\",\n        \"username\": \"user9002\",\n        \"categoria_merceologica\": \"PANCETTA\",\n        \"data_inizio_validita\": \"2015-04-01 00:00:00\",\n        \"data_fine_validita\": \"2016-12-31 00:00:00\",\n        \"data_creazione_scheda\": \"2016-05-30 00:00:00\",\n        \"data_ultimo_aggiornamento_scheda\": \"2016-05-30 00:00:00\",\n        \"id_dati_prodotto\": \"1\",\n        \"prezzo_prodotto\": \"233.00\",\n        \"ordine_prodotto\": \"1\",\n        \"prodotto_in_promozione\": \"1\",\n        \"prodotto_top_seller\": \"0\"\n     }\n  ]\n} \n\n\n *",
+          "type": "json"
+        }
+      ]
+    },
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "id_cliente",
+            "description": "<p>Identificativo cliente oggetto della rilevazione (come da risposta di /rest/users/login)</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "id_rilevazione",
+            "description": "<p>Identificativo rilevazione (come da risposta di /rest/rilevazione/rilevazionecorrente)</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "d:/xampp-5.6.3/htdocs/rilevazioni/backend/app/rest/controllers/RilevazioneController.php",
+    "groupTitle": "Rilevazione"
+  },
+  {
+    "type": "post",
+    "url": "/rest/token",
+    "title": "(a) Richiesta token per autenticazione WS",
+    "name": "Token",
+    "group": "Token",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "username",
+            "description": "<p>Username</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "password",
+            "description": "<p>Password</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Request-Example:",
+          "content": "{\n    \"username\":\"USERNAME\",\n    \"password\":\"PASSWORD\"\t\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "String",
+            "allowedValues": [
+              "'success'",
+              "'fail'"
+            ],
+            "optional": false,
+            "field": "status",
+            "description": "<p>Esito della richiesta .</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<p>Status code HTTP</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "request_time",
+            "description": "<p>Timestamp relativo alla ricezione della richiesta.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "response_time",
+            "description": "<p>Timestamp relativo alla generazione della risposta.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "token",
+            "description": "<p>Token da utilizzare per le autenticazioni</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "\n{\n    \"request_time\": \"Tue May 31 8:48:03 CEST 2016\",\n    \"code\": 200,\n    \"response_time\": \"Tue May 31 8:48:03 CEST 2016\",\n    \"status\": \"success\"\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE0NjQ2NzcyODMsImp0aSI6IlhnVG9ibzBsWlM4T3hnaDR0bTJaMWxGWTk3bUF2NERZbkFIanJxZVdUNGc9IiwiaXNzIjoiaHR0cDpcL1wvYXBwcy52YWx1ZWxhYi5pdCIsIm5iZiI6MTQ2NDY3NzI4MywiZXhwIjoxNDY0NzYzNjgzLCJkYXRhIjp7InVzZXJOYW1lIjoicml2YWxleCJ9fQ.ymL353UNJJdBSooOrkdDPPsfYyqp5r2ZL8sJvyfwWkzOjdxlynbIBxyCQatywBnNjuhOREyPaTXJkA5uS_kjEw\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "d:/xampp-5.6.3/htdocs/rilevazioni/backend/app/rest/controllers/TokenController.php",
+    "groupTitle": "Token"
+  },
+  {
+    "type": "post",
+    "url": "/rest/users/login",
+    "title": "(a) Login Utente",
+    "name": "LoginUtente",
+    "group": "Utente",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "username",
+            "description": "<p>Username</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "password",
+            "description": "<p>Password</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Request-Example:",
+          "content": "{\n    \"username\":\"USERNAME\",\n    \"password\":\"PASSWORD\"\t\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "String",
+            "allowedValues": [
+              "'success'",
+              "'fail'"
+            ],
+            "optional": false,
+            "field": "status",
+            "description": "<p>Esito della richiesta .</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "request_time",
+            "description": "<p>Timestamp relativo alla ricezione della richiesta.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "response_time",
+            "description": "<p>Timestamp relativo alla generazione della risposta.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Object",
+            "optional": false,
+            "field": "utente",
+            "description": "<p>Profilo utente</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.id",
+            "description": "<p>Id dell'utente</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.nome",
+            "description": "<p>Nome dell'utente</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.username",
+            "description": "<p>Username dell'utente</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "allowedValues": [
+              "'AGENTE'",
+              "'ISPETTORE'",
+              "'CAPOAREA'"
+            ],
+            "optional": false,
+            "field": "utente.ruolo",
+            "description": "<p>Ruolo dell'utente</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Object[]",
+            "optional": false,
+            "field": "utente.cliente",
+            "description": "<p>Lista dei clienti (punti vendita) associati all'utente</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.cliente.id",
+            "description": "<p>Id cliente</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.cliente.nome",
+            "description": "<p>Nome del cliente</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.cliente.cognome",
+            "description": "<p>Cognome del cliente</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.cliente.via",
+            "description": "<p>Indirizzo del cliente (via)</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.cliente.cap",
+            "description": "<p>Indirizzo del cliente (cap)</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.cliente.citta",
+            "description": "<p>Indirizzo del cliente (citta)</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.cliente.provincia",
+            "description": "<p>Indirizzo del cliente (provincia)</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "utente.cliente.cod_fisc",
+            "description": "<p>Codice fiscale/PIVA del cliente</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "\n{\n  \"request_time\": \"Tue May 10 11:25:31 CEST 2016\",\n  \"code\": 200,\n  \"response_time\": \"Tue May 10 11:25:31 CEST 2016\",\n  \"status\": \"success\",\n  \"utente\":    {\n     \"id\": \"282\",\n     \"username\": \"userisp9490\",\n     \"ruolo\": \"ISPETTORE\",\n     \"id_agente\": null,\n     \"id_ispettore\": \"20\",\n     \"id_capoarea\": null,\n     \"cliente\":       [\n                 {\n           \"id\": \"373\",\n           \"cod_cliente\": \"30918\",\n           \"nome\": \"AGI MARKET S.N.C. DI BULLA GIROLAMO & C.\",\n           \"cognome\": null,\n           \"via\": \"VIA DANTE 5/B\",\n           \"cap\": \"25020\",\n           \"citta\": \"DELLO\",\n           \"provincia\": \"BS\",\n           \"cod_fisc\": \"629610981\",\n           \"id_agente\": \"55\",\n           \"id_ispettore\": \"20\",\n           \"id_capoarea\": \"2\"\n        },\n        {\n           \"id\": \"748\",\n           \"cod_cliente\": \"32053\",\n           \"nome\": \"ALIMENTARI TIRABOSCHI\",\n           \"cognome\": \"ROBERTO S.N.C.\",\n           \"via\": \"VIA PERLETTI 1\",\n           \"cap\": \"24013\",\n           \"citta\": \"OLTRE IL COLLE\",\n           \"provincia\": \"BG\",\n           \"cod_fisc\": \"1630860169\",\n           \"id_agente\": \"48\",\n           \"id_ispettore\": \"20\",\n           \"id_capoarea\": \"2\"\n        }\n     ]\n  }\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "d:/xampp-5.6.3/htdocs/rilevazioni/backend/app/rest/controllers/UserController.php",
+    "groupTitle": "Utente"
+  }
+] });

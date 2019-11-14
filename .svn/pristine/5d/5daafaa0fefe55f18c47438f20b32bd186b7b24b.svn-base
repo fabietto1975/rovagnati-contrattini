@@ -1,0 +1,102 @@
+<?php
+
+namespace backend\icb\rest\controllers;
+
+use backend\common\rest\controllers\AbstractController;
+use backend\icb\service\PreferenceService;
+
+class PreferencesController extends AbstractController {
+    /**
+     * @api {get} /rest/favorites (a) Request favorites list
+     * @apiName GetPreferences
+     * @apiGroup Preferences
+
+     * @apiSuccess {String}     status                          Response Status.
+     * @apiSuccess {Object[]}   favorites                       "Favorites" Array.
+     * @apiSuccess {Number}     favorites.id                    ID of the item
+     * @apiSuccess {String}     favorites.name                  Name of the item
+     *
+     * @apiSuccessExample Success-Response:
+     *     HTTP/1.1 200 OK
+     *     {
+     *       "status": "success",
+     *       "favorites":[
+     *          {   
+     *              "id":"1",
+     *              "name":"NEW COOL PREVIEW MAN"
+     *          },
+     *          {   
+     *              "id":"4",
+     *              "name":JEWELRY MARNI WOMAN"
+     *          },
+     *     }
+     */
+    /**
+     * @api {get} /rest/donot (b) Request 'do not' items
+     * @apiName GetDoNot
+     * @apiGroup Preferences
+     *
+     * @apiSuccess {String}     status                      Response Status.
+     * @apiSuccess {Object[]}   donot                       "Donot" Array.
+     * @apiSuccess {Number}     donot.id                    ID of the item
+     * @apiSuccess {String}     donot.name                  Name of the item
+     *
+     * @apiSuccessExample Success-Response:
+     *     HTTP/1.1 200 OK
+     *     {
+     *       "status": "success",
+     *       "donot": {   
+     *          "id":"1",
+     *          "name":"SEND MARNI FASHION BOOK",
+     *       }
+     *     }
+     *
+     * 
+     */
+
+    private $preferenceService;
+
+    public function __construct($request) {
+        parent::__construct($request);
+        $this->preferenceService = new PreferenceService();
+    }
+
+    public function getAction() {
+
+        $result = null;
+        if (isset($this->request->url_elements[2])) {
+            $preference = $this->request->url_elements[2];
+            if (in_array($preference, array("brands", "favorites", "donot"))) {
+                $result = $this->preferenceService->readPreference($preference);
+                if ($result == null) {
+                    $this->data['code'] = AbstractController::HTTP_CODE_NOTFOUND;
+                    $result = array(
+                        'error' => $preference.'_not_found'
+                    );
+                    $this->getResultData($result, 'error', null);
+                } else {
+                    $this->getResultData($result, $preference, null);
+                }
+                return $this->data;
+            }
+            else{
+                return null;
+            }
+        } else {
+            return null;
+        }
+    }
+
+    public function postAction() {
+        
+    }
+
+    public function deleteAction() {
+        
+    }
+
+    public function putAction() {
+        
+    }
+
+}

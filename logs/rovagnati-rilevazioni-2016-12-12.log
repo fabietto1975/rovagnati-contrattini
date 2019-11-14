@@ -1,0 +1,3613 @@
+2016-12-12T11:47:55+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481539674
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481539674
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T11:47:55+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481539674
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 11:47:54 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 11:47:55 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505100
+                            [cod_cli] => 91
+                            [rag_sociale] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_cf] => 91
+                            [desc_cf] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_centrale] => 993
+                            [desc_centrale] => GRUPPO CLIENTI INFRAGRUPPO
+                            [cod_gruppo] => 993
+                            [desc_gruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [sotto_gruppo] => 993
+                            [desc_sottogruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [ct] => 91
+                            [desc_cliente_totale] => ROVAGNATI SPA (BELGIO)
+                            [sottocanale] => INT
+                            [canale] => INT
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 9315
+                            [nome_agente] => ESTERO
+                            [cod_ispettore] => 9362
+                            [nome_ispettore] => ZONA ESTERO
+                            [cod_capo_area] => 9363
+                            [desc_capo_area] => AREA ESTERO
+                            [indirizzo] => AVENUE ZENOBE GRANNE 13
+                            [cap] => 1480
+                            [provincia_nazione] => BEL
+                            [nazione] => BE
+                            [categoria_merceologica] => AZ
+                            [desc_cat_merceologica] => Azienda Alimentare
+                            [localita] => SAINTES BELGIUM
+                            [latitudine] => 0
+                            [longitudine] => 0
+                            [id_agente] => 23216
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T11:50:36+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481539836
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => wavecorrente
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481539836
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T11:50:37+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481539836
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 11:50:36 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 11:50:37 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [wave_desc] => Rilevazione per bar-tavola calda
+                            [data_inizio] => 2016-06-01 00:00:00
+                            [data_fine] => 2016-12-31 00:00:00
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T11:53:28+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540008
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => profiloCliente
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481540008
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T11:53:28+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540008
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 11:53:28 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 11:53:28 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [desc_profilo] => ALIMENTARISTA
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc_profilo] => BAR - TAVOLA CALDA
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 3
+                            [desc_profilo] => RISTORANTE
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:02:20+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540540
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481540540
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:02:20+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540540
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:02:20 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:02:20 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505100
+                            [cod_cli] => 91
+                            [rag_sociale] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_cf] => 91
+                            [desc_cf] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_centrale] => 993
+                            [desc_centrale] => GRUPPO CLIENTI INFRAGRUPPO
+                            [cod_gruppo] => 993
+                            [desc_gruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [sotto_gruppo] => 993
+                            [desc_sottogruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [ct] => 91
+                            [desc_cliente_totale] => ROVAGNATI SPA (BELGIO)
+                            [sottocanale] => INT
+                            [canale] => INT
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 9315
+                            [nome_agente] => ESTERO
+                            [cod_ispettore] => 9362
+                            [nome_ispettore] => ZONA ESTERO
+                            [cod_capo_area] => 9363
+                            [desc_capo_area] => AREA ESTERO
+                            [indirizzo] => AVENUE ZENOBE GRANNE 13
+                            [cap] => 1480
+                            [provincia_nazione] => BEL
+                            [nazione] => BE
+                            [categoria_merceologica] => AZ
+                            [desc_cat_merceologica] => Azienda Alimentare
+                            [localita] => SAINTES BELGIUM
+                            [latitudine] => 0
+                            [longitudine] => 0
+                            [id_agente] => 23216
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:07:00+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540820
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481540820
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:07:00+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540820
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:07:00 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:07:00 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505100
+                            [cod_cli] => 91
+                            [rag_sociale] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_cf] => 91
+                            [desc_cf] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_centrale] => 993
+                            [desc_centrale] => GRUPPO CLIENTI INFRAGRUPPO
+                            [cod_gruppo] => 993
+                            [desc_gruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [sotto_gruppo] => 993
+                            [desc_sottogruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [ct] => 91
+                            [desc_cliente_totale] => ROVAGNATI SPA (BELGIO)
+                            [sottocanale] => INT
+                            [canale] => INT
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 9315
+                            [nome_agente] => ESTERO
+                            [cod_ispettore] => 9362
+                            [nome_ispettore] => ZONA ESTERO
+                            [cod_capo_area] => 9363
+                            [desc_capo_area] => AREA ESTERO
+                            [indirizzo] => AVENUE ZENOBE GRANNE 13
+                            [cap] => 1480
+                            [provincia_nazione] => BEL
+                            [nazione] => BE
+                            [categoria_merceologica] => AZ
+                            [desc_cat_merceologica] => Azienda Alimentare
+                            [localita] => SAINTES BELGIUM
+                            [latitudine] => 0
+                            [longitudine] => 0
+                            [id_agente] => 23216
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:07:03+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540822
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481540822
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:07:03+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540822
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:07:02 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:07:03 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505100
+                            [cod_cli] => 91
+                            [rag_sociale] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_cf] => 91
+                            [desc_cf] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_centrale] => 993
+                            [desc_centrale] => GRUPPO CLIENTI INFRAGRUPPO
+                            [cod_gruppo] => 993
+                            [desc_gruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [sotto_gruppo] => 993
+                            [desc_sottogruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [ct] => 91
+                            [desc_cliente_totale] => ROVAGNATI SPA (BELGIO)
+                            [sottocanale] => INT
+                            [canale] => INT
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 9315
+                            [nome_agente] => ESTERO
+                            [cod_ispettore] => 9362
+                            [nome_ispettore] => ZONA ESTERO
+                            [cod_capo_area] => 9363
+                            [desc_capo_area] => AREA ESTERO
+                            [indirizzo] => AVENUE ZENOBE GRANNE 13
+                            [cap] => 1480
+                            [provincia_nazione] => BEL
+                            [nazione] => BE
+                            [categoria_merceologica] => AZ
+                            [desc_cat_merceologica] => Azienda Alimentare
+                            [localita] => SAINTES BELGIUM
+                            [latitudine] => 0
+                            [longitudine] => 0
+                            [id_agente] => 23216
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:08:54+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540933
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481540933
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:09:08+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540948
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481540948
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:09:08+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481540948
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:09:08 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:09:08 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505100
+                            [cod_cli] => 91
+                            [rag_sociale] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_cf] => 91
+                            [desc_cf] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_centrale] => 993
+                            [desc_centrale] => GRUPPO CLIENTI INFRAGRUPPO
+                            [cod_gruppo] => 993
+                            [desc_gruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [sotto_gruppo] => 993
+                            [desc_sottogruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [ct] => 91
+                            [desc_cliente_totale] => ROVAGNATI SPA (BELGIO)
+                            [sottocanale] => INT
+                            [canale] => INT
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 9315
+                            [nome_agente] => ESTERO
+                            [cod_ispettore] => 9362
+                            [nome_ispettore] => ZONA ESTERO
+                            [cod_capo_area] => 9363
+                            [desc_capo_area] => AREA ESTERO
+                            [indirizzo] => AVENUE ZENOBE GRANNE 13
+                            [cap] => 1480
+                            [provincia_nazione] => BEL
+                            [nazione] => BE
+                            [categoria_merceologica] => AZ
+                            [desc_cat_merceologica] => Azienda Alimentare
+                            [localita] => SAINTES BELGIUM
+                            [latitudine] => 0
+                            [longitudine] => 0
+                            [id_agente] => 23216
+                            [id_profilo] => 
+                            [profilo] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:10:12+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481541012
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481541012
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:10:20+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481541020
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481541020
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:10:20+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481541020
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:10:20 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:10:20 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505100
+                            [cod_cli] => 91
+                            [rag_sociale] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_cf] => 91
+                            [desc_cf] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_centrale] => 993
+                            [desc_centrale] => GRUPPO CLIENTI INFRAGRUPPO
+                            [cod_gruppo] => 993
+                            [desc_gruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [sotto_gruppo] => 993
+                            [desc_sottogruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [ct] => 91
+                            [desc_cliente_totale] => ROVAGNATI SPA (BELGIO)
+                            [sottocanale] => INT
+                            [canale] => INT
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 9315
+                            [nome_agente] => ESTERO
+                            [cod_ispettore] => 9362
+                            [nome_ispettore] => ZONA ESTERO
+                            [cod_capo_area] => 9363
+                            [desc_capo_area] => AREA ESTERO
+                            [indirizzo] => AVENUE ZENOBE GRANNE 13
+                            [cap] => 1480
+                            [provincia_nazione] => BEL
+                            [nazione] => BE
+                            [categoria_merceologica] => AZ
+                            [desc_cat_merceologica] => Azienda Alimentare
+                            [localita] => SAINTES BELGIUM
+                            [latitudine] => 0
+                            [longitudine] => 0
+                            [id_agente] => 23216
+                            [id_profilo] => 0
+                            [profilo] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:19:42+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481541582
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481541582
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:19:42+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481541582
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:19:42 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:19:42 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505100
+                            [cod_cli] => 91
+                            [rag_sociale] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_cf] => 91
+                            [desc_cf] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_centrale] => 993
+                            [desc_centrale] => GRUPPO CLIENTI INFRAGRUPPO
+                            [cod_gruppo] => 993
+                            [desc_gruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [sotto_gruppo] => 993
+                            [desc_sottogruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [ct] => 91
+                            [desc_cliente_totale] => ROVAGNATI SPA (BELGIO)
+                            [sottocanale] => INT
+                            [canale] => INT
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 9315
+                            [nome_agente] => ESTERO
+                            [cod_ispettore] => 9362
+                            [nome_ispettore] => ZONA ESTERO
+                            [cod_capo_area] => 9363
+                            [desc_capo_area] => AREA ESTERO
+                            [indirizzo] => AVENUE ZENOBE GRANNE 13
+                            [cap] => 1480
+                            [provincia_nazione] => BEL
+                            [nazione] => BE
+                            [categoria_merceologica] => AZ
+                            [desc_cat_merceologica] => Azienda Alimentare
+                            [localita] => SAINTES BELGIUM
+                            [latitudine] => 0
+                            [longitudine] => 0
+                            [id_agente] => 23216
+                            [id_profilo] => 0
+                            [profilo] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:28:36+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542116
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => profiloCliente
+                    [2] => 505100
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481542116
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 0
+                    [Postman-Token] => b1ae8fd7-c102-e221-1896-124b791f9f2d
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/x-www-form-urlencoded
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:29:26+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542166
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => profiloCliente
+                    [2] => 505100
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                    [id_profilo] => 1
+                )
+
+            [format] => json
+            [datetime] => 1481542166
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 25
+                    [Postman-Token] => d049cf3d-6661-ca0c-89cc-001289e5b8c9
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:29:26+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542166
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:29:26 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:29:26 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => 
+        )
+
+)
+
+2016-12-12T12:29:29+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542169
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => profiloCliente
+                    [2] => 505100
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                    [id_profilo] => 1
+                )
+
+            [format] => json
+            [datetime] => 1481542169
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 25
+                    [Postman-Token] => 0bf1c9e4-ef9f-50c4-21db-aa6f0b87bf7f
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:29:29+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542169
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:29:29 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:29:29 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => 
+        )
+
+)
+
+2016-12-12T12:30:32+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542232
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => profiloCliente
+                    [2] => 505100
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                    [id_profilo] => 3
+                )
+
+            [format] => json
+            [datetime] => 1481542232
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 25
+                    [Postman-Token] => d53331e7-d72f-4806-77fe-86f8b3513cb7
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:30:32+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542232
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:30:32 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:30:32 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => 
+        )
+
+)
+
+2016-12-12T12:31:49+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542309
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => profiloCliente
+                    [2] => 505100
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                    [id_profilo] => 3
+                )
+
+            [format] => json
+            [datetime] => 1481542309
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 25
+                    [Postman-Token] => 47a147fd-ccd5-d6cf-3db4-7bbb6d243807
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:31:49+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542309
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:31:49 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:31:49 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => 3
+        )
+
+)
+
+2016-12-12T12:31:58+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542318
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => profiloCliente
+                    [2] => 505100
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                    [id_profilo] => 3
+                )
+
+            [format] => json
+            [datetime] => 1481542318
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 25
+                    [Postman-Token] => e2ad1418-bd14-7a25-793a-366462c0ba49
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:31:59+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542318
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:31:58 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:31:59 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => 3
+        )
+
+)
+
+2016-12-12T12:32:08+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542328
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => profiloCliente
+                    [2] => 505100
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                    [id_profilo] => 3
+                )
+
+            [format] => json
+            [datetime] => 1481542328
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 25
+                    [Postman-Token] => 294fbf2a-c600-252b-fc72-45c1f66414f1
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:32:08+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542328
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:32:08 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:32:08 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => 3
+        )
+
+)
+
+2016-12-12T12:34:34+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542474
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => profiloCliente
+                    [2] => 2
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                    [id_cliente] => 505100
+                )
+
+            [format] => json
+            [datetime] => 1481542474
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 30
+                    [Postman-Token] => dc736882-86c8-f3df-9577-df467d483165
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:34:34+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542474
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:34:34 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:34:34 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => 2
+        )
+
+)
+
+2016-12-12T12:35:01+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542501
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481542501
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:35:01+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542501
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:35:01 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:35:01 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505100
+                            [cod_cli] => 91
+                            [rag_sociale] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_cf] => 91
+                            [desc_cf] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_centrale] => 993
+                            [desc_centrale] => GRUPPO CLIENTI INFRAGRUPPO
+                            [cod_gruppo] => 993
+                            [desc_gruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [sotto_gruppo] => 993
+                            [desc_sottogruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [ct] => 91
+                            [desc_cliente_totale] => ROVAGNATI SPA (BELGIO)
+                            [sottocanale] => INT
+                            [canale] => INT
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 9315
+                            [nome_agente] => ESTERO
+                            [cod_ispettore] => 9362
+                            [nome_ispettore] => ZONA ESTERO
+                            [cod_capo_area] => 9363
+                            [desc_capo_area] => AREA ESTERO
+                            [indirizzo] => AVENUE ZENOBE GRANNE 13
+                            [cap] => 1480
+                            [provincia_nazione] => BEL
+                            [nazione] => BE
+                            [categoria_merceologica] => AZ
+                            [desc_cat_merceologica] => Azienda Alimentare
+                            [localita] => SAINTES BELGIUM
+                            [latitudine] => 0
+                            [longitudine] => 0
+                            [id_agente] => 23216
+                            [id_profilo] => 2
+                            [profilo] => BAR - TAVOLA CALDA
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:40:37+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542837
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 2
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481542837
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:40:37+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542837
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:40:37 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:40:37 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                        )
+
+                    [risposte] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:40:53+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542853
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481542853
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:40:53+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481542853
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:40:53 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:40:53 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [area] => LOCATION
+                                    [ordine_area] => 1
+                                    [ordine] => 1
+                                    [testo] => Tipo location
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Su via;2:In centro commerciale;3:In mercato coperto;4:In mercato aperto;5:In struttura turistica
+                                    [id_profilo] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 13
+                                    [area] => APERTURA
+                                    [ordine_area] => 2
+                                    [ordine] => 1
+                                    [testo] => Apertura stagionale
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_profilo] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 23
+                                    [area] => INTERNO
+                                    [ordine_area] => 4
+                                    [ordine] => 4
+                                    [testo] => Espositori refrigerati per LS
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Si;2:No
+                                    [id_profilo] => 1
+                                )
+
+                            [3] => Array
+                                (
+                                    [id] => 45
+                                    [area] => SERVIZI
+                                    [ordine_area] => 7
+                                    [ordine] => 2
+                                    [testo] => Orario di chiusura prevalente estivo
+                                    [tipo] => Ora
+                                    [valori_risposta] => 
+                                    [id_profilo] => 1
+                                )
+
+                        )
+
+                    [risposte] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:46:59+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481543219
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481543219
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 0
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Postman-Token] => ae81f613-eb38-cc68-a5a8-13d2e5330259
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:46:59+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481543219
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:46:59 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:46:59 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [id_domanda] => 
+                            [id_cliente] => 
+                            [valore_risposta] => 
+                            [id_utente] => 
+                            [id_wave] => 
+                            [data_creazione] => 
+                            [data_aggiornamento] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:50:56+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481543456
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481543456
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 0
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Postman-Token] => 28d8098e-e8aa-a838-4054-a7e114265cda
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:57:27+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481543847
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481543847
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 99
+                    [Postman-Token] => 4bac2807-5044-66ca-22ac-6554067a049f
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:57:27+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481543847
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:57:27 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:57:27 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [id_domanda] => 
+                            [id_cliente] => 
+                            [valore_risposta] => 
+                            [id_utente] => 
+                            [id_wave] => 
+                            [data_creazione] => 
+                            [data_aggiornamento] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:57:45+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481543865
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                )
+
+            [format] => json
+            [datetime] => 1481543865
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 98
+                    [Postman-Token] => ca1dcdcc-9dd8-c2f4-7b23-101d987a3670
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T12:57:45+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481543865
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 12:57:45 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 12:57:45 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [id_domanda] => 1
+                            [id_cliente] => 505100
+                            [valore_risposta] => 
+                            [id_utente] => 23123
+                            [id_wave] => 
+                            [data_creazione] => 
+                            [data_aggiornamento] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T12:58:15+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481543895
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                )
+
+            [format] => json
+            [datetime] => 1481543895
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 98
+                    [Postman-Token] => 78577a8d-713d-a45f-1460-786791fb6b29
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:02:42+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544162
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su via
+                )
+
+            [format] => json
+            [datetime] => 1481544162
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 147
+                    [Postman-Token] => c59d17ed-1cd6-87c8-84fb-82be3ed211b4
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:02:49+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544169
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su via
+                )
+
+            [format] => json
+            [datetime] => 1481544169
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 147
+                    [Postman-Token] => 58b23883-c56e-2770-88a8-d5bed102ea3e
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:03:32+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544212
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su via
+                )
+
+            [format] => json
+            [datetime] => 1481544212
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 147
+                    [Postman-Token] => d03d3d01-02c2-df98-d05d-a1206ca058bf
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:04:05+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544245
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su via
+                )
+
+            [format] => json
+            [datetime] => 1481544245
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 147
+                    [Postman-Token] => 421b87e0-83bf-b678-2bba-756d089581a2
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:04:46+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544286
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su via
+                )
+
+            [format] => json
+            [datetime] => 1481544286
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 147
+                    [Postman-Token] => 49b91aa1-11af-3d8b-0069-2f30427ec884
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:04:46+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544286
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 13:04:46 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 13:04:46 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7
+                            [id_domanda] => 1
+                            [id_cliente] => 505100
+                            [id_risposta] => 1
+                            [valore_risposta] => Su via
+                            [id_utente] => 23123
+                            [id_wave] => 1
+                            [data_creazione] => 
+                            [data_aggiornamento] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T13:05:29+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544329
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481544329
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:05:29+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544329
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 13:05:29 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 13:05:29 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [area] => LOCATION
+                                    [ordine_area] => 1
+                                    [ordine] => 1
+                                    [testo] => Tipo location
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Su via;2:In centro commerciale;3:In mercato coperto;4:In mercato aperto;5:In struttura turistica
+                                    [id_profilo] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 13
+                                    [area] => APERTURA
+                                    [ordine_area] => 2
+                                    [ordine] => 1
+                                    [testo] => Apertura stagionale
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_profilo] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 23
+                                    [area] => INTERNO
+                                    [ordine_area] => 4
+                                    [ordine] => 4
+                                    [testo] => Espositori refrigerati per LS
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Si;2:No
+                                    [id_profilo] => 1
+                                )
+
+                            [3] => Array
+                                (
+                                    [id] => 45
+                                    [area] => SERVIZI
+                                    [ordine_area] => 7
+                                    [ordine] => 2
+                                    [testo] => Orario di chiusura prevalente estivo
+                                    [tipo] => Ora
+                                    [valori_risposta] => 
+                                    [id_profilo] => 1
+                                )
+
+                        )
+
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 7
+                                    [id_domanda] => 1
+                                    [id_cliente] => 505100
+                                    [id_risposta] => 1
+                                    [valore_risposta] => Su via
+                                    [id_utente] => 23123
+                                    [id_wave] => 1
+                                    [data_creazione] => 
+                                    [data_aggiornamento] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T13:08:45+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544525
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481544525
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:08:45+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544525
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 13:08:45 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 13:08:45 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 13
+                                    [area] => APERTURA
+                                    [ordine_area] => 2
+                                    [ordine] => 1
+                                    [testo] => Apertura stagionale
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_profilo] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 23
+                                    [area] => INTERNO
+                                    [ordine_area] => 4
+                                    [ordine] => 4
+                                    [testo] => Espositori refrigerati per LS
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Si;2:No
+                                    [id_profilo] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 45
+                                    [area] => SERVIZI
+                                    [ordine_area] => 7
+                                    [ordine] => 2
+                                    [testo] => Orario di chiusura prevalente estivo
+                                    [tipo] => Ora
+                                    [valori_risposta] => 
+                                    [id_profilo] => 1
+                                )
+
+                        )
+
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 7
+                                    [id_domanda] => 1
+                                    [id_cliente] => 505100
+                                    [id_risposta] => 1
+                                    [valore_risposta] => Su via
+                                    [id_utente] => 23123
+                                    [id_wave] => 1
+                                    [data_creazione] => 
+                                    [data_aggiornamento] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T13:10:47+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544647
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su via
+                )
+
+            [format] => json
+            [datetime] => 1481544647
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 147
+                    [Postman-Token] => 283cbaa7-85e0-2663-8aab-9c5cfef01b60
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:10:47+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544647
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 13:10:47 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 13:10:47 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [id_domanda] => 1
+                            [id_cliente] => 505100
+                            [id_risposta] => 1
+                            [valore_risposta] => Su via
+                            [id_utente] => 23123
+                            [id_wave] => 1
+                            [data_creazione] => 
+                            [data_aggiornamento] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T13:11:06+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544666
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481544666
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:11:06+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544666
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 13:11:06 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 13:11:06 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 13
+                                    [area] => APERTURA
+                                    [ordine_area] => 2
+                                    [ordine] => 1
+                                    [testo] => Apertura stagionale
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_profilo] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 23
+                                    [area] => INTERNO
+                                    [ordine_area] => 4
+                                    [ordine] => 4
+                                    [testo] => Espositori refrigerati per LS
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Si;2:No
+                                    [id_profilo] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 45
+                                    [area] => SERVIZI
+                                    [ordine_area] => 7
+                                    [ordine] => 2
+                                    [testo] => Orario di chiusura prevalente estivo
+                                    [tipo] => Ora
+                                    [valori_risposta] => 
+                                    [id_profilo] => 1
+                                )
+
+                        )
+
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 8
+                                    [id_domanda] => 1
+                                    [id_cliente] => 505100
+                                    [id_risposta] => 1
+                                    [valore_risposta] => Su via
+                                    [id_utente] => 23123
+                                    [id_wave] => 1
+                                    [data_creazione] => 
+                                    [data_aggiornamento] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T13:11:18+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544678
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481544678
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:11:18+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544678
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 13:11:18 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 13:11:18 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [area] => LOCATION
+                                    [ordine_area] => 1
+                                    [ordine] => 1
+                                    [testo] => Tipo location
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Su via;2:In centro commerciale;3:In mercato coperto;4:In mercato aperto;5:In struttura turistica
+                                    [id_profilo] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 13
+                                    [area] => APERTURA
+                                    [ordine_area] => 2
+                                    [ordine] => 1
+                                    [testo] => Apertura stagionale
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_profilo] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 23
+                                    [area] => INTERNO
+                                    [ordine_area] => 4
+                                    [ordine] => 4
+                                    [testo] => Espositori refrigerati per LS
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Si;2:No
+                                    [id_profilo] => 1
+                                )
+
+                            [3] => Array
+                                (
+                                    [id] => 45
+                                    [area] => SERVIZI
+                                    [ordine_area] => 7
+                                    [ordine] => 2
+                                    [testo] => Orario di chiusura prevalente estivo
+                                    [tipo] => Ora
+                                    [valori_risposta] => 
+                                    [id_profilo] => 1
+                                )
+
+                        )
+
+                    [risposte] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T13:12:12+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544732
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su via
+                )
+
+            [format] => json
+            [datetime] => 1481544732
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 147
+                    [Postman-Token] => f4c95140-53a7-3e6c-6d4e-98ecf52ee08b
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:12:12+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544732
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 13:12:12 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 13:12:12 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 9
+                            [id_domanda] => 1
+                            [id_cliente] => 505100
+                            [id_risposta] => 1
+                            [valore_risposta] => Su via
+                            [id_utente] => 23123
+                            [id_wave] => 1
+                            [data_creazione] => 
+                            [data_aggiornamento] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T13:13:31+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544811
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481544811
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:13:31+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544811
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 13:13:31 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 13:13:31 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [area] => LOCATION
+                                    [ordine_area] => 1
+                                    [ordine] => 1
+                                    [testo] => Tipo location
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Su via;2:In centro commerciale;3:In mercato coperto;4:In mercato aperto;5:In struttura turistica
+                                    [id_profilo] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 13
+                                    [area] => APERTURA
+                                    [ordine_area] => 2
+                                    [ordine] => 1
+                                    [testo] => Apertura stagionale
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_profilo] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 23
+                                    [area] => INTERNO
+                                    [ordine_area] => 4
+                                    [ordine] => 4
+                                    [testo] => Espositori refrigerati per LS
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Si;2:No
+                                    [id_profilo] => 1
+                                )
+
+                            [3] => Array
+                                (
+                                    [id] => 45
+                                    [area] => SERVIZI
+                                    [ordine_area] => 7
+                                    [ordine] => 2
+                                    [testo] => Orario di chiusura prevalente estivo
+                                    [tipo] => Ora
+                                    [valori_risposta] => 
+                                    [id_profilo] => 1
+                                )
+
+                        )
+
+                    [risposte] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T13:13:36+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544816
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su via
+                )
+
+            [format] => json
+            [datetime] => 1481544816
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 147
+                    [Postman-Token] => 1c59a99a-462c-3666-6a89-babca628ac48
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:13:36+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544816
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 13:13:36 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 13:13:36 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10
+                            [id_domanda] => 1
+                            [id_cliente] => 505100
+                            [id_risposta] => 1
+                            [valore_risposta] => Su via
+                            [id_utente] => 23123
+                            [id_wave] => 1
+                            [data_creazione] => 2016-12-12 13:13:36
+                            [data_aggiornamento] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T13:13:41+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544821
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481544821
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T13:13:42+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481544821
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 13:13:41 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 13:13:42 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 13
+                                    [area] => APERTURA
+                                    [ordine_area] => 2
+                                    [ordine] => 1
+                                    [testo] => Apertura stagionale
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_profilo] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 23
+                                    [area] => INTERNO
+                                    [ordine_area] => 4
+                                    [ordine] => 4
+                                    [testo] => Espositori refrigerati per LS
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Si;2:No
+                                    [id_profilo] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 45
+                                    [area] => SERVIZI
+                                    [ordine_area] => 7
+                                    [ordine] => 2
+                                    [testo] => Orario di chiusura prevalente estivo
+                                    [tipo] => Ora
+                                    [valori_risposta] => 
+                                    [id_profilo] => 1
+                                )
+
+                        )
+
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 10
+                                    [id_domanda] => 1
+                                    [id_cliente] => 505100
+                                    [id_risposta] => 1
+                                    [valore_risposta] => Su via
+                                    [id_utente] => 23123
+                                    [id_wave] => 1
+                                    [data_creazione] => 2016-12-12 13:13:36
+                                    [data_aggiornamento] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T14:19:21+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481548761
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su viaa
+                    [id] => 10
+                )
+
+            [format] => json
+            [datetime] => 1481548761
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 160
+                    [Postman-Token] => a9d2dc5a-aaad-f5f7-2400-2740ca5f850e
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T14:19:21+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481548761
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 14:19:21 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 14:19:21 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su viaa
+                    [id] => 10
+                )
+
+        )
+
+)
+
+2016-12-12T14:20:17+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481548817
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su viaa
+                    [id] => 10
+                )
+
+            [format] => json
+            [datetime] => 1481548817
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 160
+                    [Postman-Token] => 35092c20-57cb-131a-0c13-5d599a783881
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T14:20:17+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481548817
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 14:20:17 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 14:20:17 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su viaa
+                    [id] => 10
+                )
+
+        )
+
+)
+
+2016-12-12T14:20:35+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481548835
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => PUT
+            [parameters] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su via
+                    [id] => 10
+                )
+
+            [format] => json
+            [datetime] => 1481548835
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 159
+                    [Postman-Token] => cb44a17b-f4a9-47cf-ac78-ce8948a7ecae
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T14:20:35+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481548835
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 14:20:35 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 14:20:35 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [id_domanda] => 1
+                    [id_cliente] => 505100
+                    [id_risposta] => 1
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => Su via
+                    [id] => 10
+                )
+
+        )
+
+)
+
+2016-12-12T14:22:16+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481548936
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481548936
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T14:22:16+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481548936
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 14:22:16 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 14:22:16 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 13
+                                    [area] => APERTURA
+                                    [ordine_area] => 2
+                                    [ordine] => 1
+                                    [testo] => Apertura stagionale
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_profilo] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 23
+                                    [area] => INTERNO
+                                    [ordine_area] => 4
+                                    [ordine] => 4
+                                    [testo] => Espositori refrigerati per LS
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Si;2:No
+                                    [id_profilo] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 45
+                                    [area] => SERVIZI
+                                    [ordine_area] => 7
+                                    [ordine] => 2
+                                    [testo] => Orario di chiusura prevalente estivo
+                                    [tipo] => Ora
+                                    [valori_risposta] => 
+                                    [id_profilo] => 1
+                                )
+
+                        )
+
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 10
+                                    [id_domanda] => 1
+                                    [id_cliente] => 505100
+                                    [id_risposta] => 1
+                                    [valore_risposta] => Su via
+                                    [id_utente] => 23123
+                                    [id_wave] => 1
+                                    [data_creazione] => 2016-12-12 13:13:36
+                                    [data_aggiornamento] => 2016-12-12 14:20:35
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T14:23:44+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481549024
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481549024
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T14:23:44+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481549024
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 14:23:44 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 14:23:44 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 13
+                                    [area] => APERTURA
+                                    [ordine_area] => 2
+                                    [ordine] => 1
+                                    [testo] => Apertura stagionale
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_profilo] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 23
+                                    [area] => INTERNO
+                                    [ordine_area] => 4
+                                    [ordine] => 4
+                                    [testo] => Espositori refrigerati per LS
+                                    [tipo] => Unica
+                                    [valori_risposta] => 1:Si;2:No
+                                    [id_profilo] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 45
+                                    [area] => SERVIZI
+                                    [ordine_area] => 7
+                                    [ordine] => 2
+                                    [testo] => Orario di chiusura prevalente estivo
+                                    [tipo] => Ora
+                                    [valori_risposta] => 
+                                    [id_profilo] => 1
+                                )
+
+                        )
+
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 10
+                                    [id_domanda] => 1
+                                    [id_cliente] => 505100
+                                    [id_risposta] => 1
+                                    [valore_risposta] => Su via
+                                    [id_utente] => 23123
+                                    [id_wave] => 1
+                                    [data_creazione] => 2016-12-12 13:13:36
+                                    [data_aggiornamento] => 2016-12-12 14:20:35
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T14:24:27+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481549067
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => domanda
+                    [3] => 505100
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1481549067
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T14:24:27+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481549067
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 14:24:27 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 14:24:27 CET 2016
+            [version_number] => 1
+            [status] => success
+            [survey] => Array
+                (
+                    [domande] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 13
+                                    [area] => APERTURA
+                                    [ordine_area] => 2
+                                    [ordine] => 1
+                                    [testo] => Apertura stagionale
+                                    [tipo] => UNICA
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_profilo] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 23
+                                    [area] => INTERNO
+                                    [ordine_area] => 4
+                                    [ordine] => 4
+                                    [testo] => Espositori refrigerati per LS
+                                    [tipo] => UNICA
+                                    [valori_risposta] => 1:Si;2:No
+                                    [id_profilo] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 45
+                                    [area] => SERVIZI
+                                    [ordine_area] => 7
+                                    [ordine] => 2
+                                    [testo] => Orario di chiusura prevalente estivo
+                                    [tipo] => ORA
+                                    [valori_risposta] => 
+                                    [id_profilo] => 1
+                                )
+
+                        )
+
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 10
+                                    [id_domanda] => 1
+                                    [id_cliente] => 505100
+                                    [id_risposta] => 1
+                                    [valore_risposta] => Su via
+                                    [id_utente] => 23123
+                                    [id_wave] => 1
+                                    [data_creazione] => 2016-12-12 13:13:36
+                                    [data_aggiornamento] => 2016-12-12 14:20:35
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T16:59:41+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481558380
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 140
+                    [id_cliente] => 505100
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => PROVA RISPOSTA
+                )
+
+            [format] => json
+            [datetime] => 1481558380
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 134
+                    [Postman-Token] => 3a23e813-d0a1-c56e-8ce8-cae7f6681bde
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-12-12T16:59:41+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481558380
+    [result] => Array
+        (
+            [request_time] => Mon Dec 12 16:59:40 CET 2016
+            [code] => 200
+            [response_time] => Mon Dec 12 16:59:41 CET 2016
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 11
+                            [id_domanda] => 140
+                            [id_cliente] => 505100
+                            [id_risposta] => 
+                            [valore_risposta] => PROVA RISPOSTA
+                            [id_utente] => 23123
+                            [id_wave] => 1
+                            [data_creazione] => 2016-12-12 16:59:41
+                            [data_aggiornamento] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2016-12-12T17:02:15+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1481558535
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_domanda] => 140
+                    [id_cliente] => 505100
+                    [id_utente] => 23123
+                    [id_wave] => 1
+                    [valore_risposta] => PROVA RISPOSTA
+                )
+
+            [format] => json
+            [datetime] => 1481558535
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Content-Length] => 134
+                    [Postman-Token] => 7d3ee185-8c0d-fa6a-3976-2d87bf058d5a
+                    [Cache-Control] => no-cache
+                    [Origin] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Content-Type] => application/json
+                    [Accept] => */*
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+

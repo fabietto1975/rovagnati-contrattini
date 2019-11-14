@@ -1,0 +1,163 @@
+2016-11-11T09:40:30+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1478853629
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => user
+                    [2] => 23255
+                    [3] => elencoclienti
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [application] => RILEVAZIONI
+                    [localita] => BELLARIA-IGEA MARINA
+                    [provincia] => RN
+                )
+
+            [format] => json
+            [datetime] => 1478853629
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-11-11T09:40:30+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1478853629
+    [result] => Array
+        (
+            [request_time] => Fri Nov 11 9:40:29 CET 2016
+            [code] => 404
+            [response_time] => Fri Nov 11 9:40:30 CET 2016
+            [version_number] => 1
+            [status] => fail
+            [message] => nessun cliente trovato
+            [error] => NO_DATA
+        )
+
+)
+
+2016-11-11T09:40:50+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1478853650
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => user
+                    [2] => 23255
+                    [3] => elencoclienti
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [application] => RILEVAZIONI
+                    [localita] => BELLARIA-IGEA MARINA
+                    [provincia] => RN
+                )
+
+            [format] => json
+            [datetime] => 1478853650
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-11-11T09:40:51+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1478853650
+    [result] => Array
+        (
+            [request_time] => Fri Nov 11 9:40:50 CET 2016
+            [code] => 404
+            [response_time] => Fri Nov 11 9:40:51 CET 2016
+            [version_number] => 1
+            [status] => fail
+            [message] => nessun cliente trovato
+            [error] => NO_DATA
+        )
+
+)
+
+2016-11-11T09:49:54+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1478854194
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => user
+                    [2] => 23255
+                    [3] => elencoclienti
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                    [application] => RILEVAZIONI
+                    [localita] => BELLARIA-IGEA MARINA
+                    [provincia] => RN
+                )
+
+            [format] => json
+            [datetime] => 1478854194
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-11-11T09:49:54+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1478854194
+    [result] => Array
+        (
+            [request_time] => Fri Nov 11 9:49:54 CET 2016
+            [code] => 404
+            [response_time] => Fri Nov 11 9:49:54 CET 2016
+            [version_number] => 1
+            [status] => fail
+            [message] => nessun cliente trovato
+            [error] => NO_DATA
+        )
+
+)
+

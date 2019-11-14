@@ -1,0 +1,636 @@
+2017-01-25T11:44:08+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1485341048
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                    [2] => 505100
+                    [3] => 23122
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id_domanda] => 13
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_wave] => 1
+                                    [id_risposta] => 14
+                                    [valore_risposta] => 1
+                                    [id_valore_risposta] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id_domanda] => 23
+                                    [id_wave] => 1
+                                    [id_risposta] => 
+                                    [valore_risposta] => 
+                                    [id_valore_risposta] => 2
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1485341048
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 526
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-25T11:49:55+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1485341395
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                    [2] => 505100
+                    [3] => 23122
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id_domanda] => 13
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_wave] => 1
+                                    [id_risposta] => 14
+                                    [valore_risposta] => 1
+                                    [id_valore_risposta] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id_domanda] => 23
+                                    [id_wave] => 1
+                                    [id_risposta] => 
+                                    [valore_risposta] => 
+                                    [id_valore_risposta] => 2
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1485341395
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 526
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-25T11:49:57+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1485341396
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                    [2] => 505100
+                    [3] => 23122
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id_domanda] => 13
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_wave] => 1
+                                    [id_risposta] => 14
+                                    [valore_risposta] => 1
+                                    [id_valore_risposta] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id_domanda] => 23
+                                    [id_wave] => 1
+                                    [id_risposta] => 
+                                    [valore_risposta] => 
+                                    [id_valore_risposta] => 2
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1485341396
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 526
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-25T11:50:59+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1485341459
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                    [2] => 505100
+                    [3] => 23122
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id_domanda] => 13
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_wave] => 1
+                                    [id_risposta] => 14
+                                    [valore_risposta] => 1
+                                    [id_valore_risposta] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id_domanda] => 23
+                                    [id_wave] => 1
+                                    [id_risposta] => 
+                                    [valore_risposta] => 
+                                    [id_valore_risposta] => 2
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1485341459
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 526
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-25T11:54:11+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1485341651
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                    [2] => 505100
+                    [3] => 23122
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id_domanda] => 13
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_wave] => 1
+                                    [id_risposta] => 14
+                                    [valore_risposta] => 1
+                                    [id_valore_risposta] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id_domanda] => 23
+                                    [id_wave] => 1
+                                    [id_risposta] => 
+                                    [valore_risposta] => 
+                                    [id_valore_risposta] => 2
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1485341651
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 526
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-25T11:54:33+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1485341673
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                    [2] => 505100
+                    [3] => 23122
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id_domanda] => 13
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_wave] => 1
+                                    [id_risposta] => 14
+                                    [valore_risposta] => 1
+                                    [id_valore_risposta] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id_domanda] => 23
+                                    [id_wave] => 1
+                                    [id_risposta] => 
+                                    [valore_risposta] => 
+                                    [id_valore_risposta] => 2
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1485341673
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 526
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-25T11:54:33+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1485341673
+    [result] => Array
+        (
+            [request_time] => Wed Jan 25 11:54:33 CET 2017
+            [code] => 200
+            [response_time] => Wed Jan 25 11:54:33 CET 2017
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [0] => Array
+                        (
+                            [id_domanda] => 1
+                            [area] => LOCATION
+                            [ordine_area] => 1
+                            [ordine] => 1
+                            [testo] => Tipo location
+                            [tipo] => UNICA
+                            [valori_risposta] => 1:Su via;2:In centro commerciale;3:In mercato coperto;4:In mercato aperto;5:In struttura turistica
+                            [id_profilo] => 1
+                            [id_wave] => 1
+                            [id_risposta] => 
+                            [valore_risposta] => 
+                            [id_valore_risposta] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id_domanda] => 13
+                            [area] => APERTURA
+                            [ordine_area] => 2
+                            [ordine] => 1
+                            [testo] => Apertura stagionale
+                            [tipo] => UNICA
+                            [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                            [id_profilo] => 1
+                            [id_wave] => 1
+                            [id_risposta] => 
+                            [valore_risposta] => 
+                            [id_valore_risposta] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [id_domanda] => 45
+                            [area] => SERVIZI
+                            [ordine_area] => 7
+                            [ordine] => 2
+                            [testo] => Orario di chiusura prevalente estivo
+                            [tipo] => ORA
+                            [valori_risposta] => 
+                            [id_profilo] => 1
+                            [id_wave] => 1
+                            [id_risposta] => 
+                            [valore_risposta] => 
+                            [id_valore_risposta] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [id_domanda] => 23
+                            [area] => INTERNO
+                            [ordine_area] => 4
+                            [ordine] => 4
+                            [testo] => Espositori refrigerati per LS
+                            [tipo] => UNICA
+                            [valori_risposta] => 1:Si;2:No
+                            [id_profilo] => 1
+                            [id_wave] => 1
+                            [id_risposta] => 1
+                            [valore_risposta] => 
+                            [id_valore_risposta] => 2
+                        )
+
+                )
+
+        )
+
+)
+
+2017-01-25T11:55:24+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1485341724
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                    [2] => 505100
+                    [3] => 23122
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id_domanda] => 13
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_wave] => 1
+                                    [id_risposta] => 
+                                    [valore_risposta] => 1
+                                    [id_valore_risposta] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id_domanda] => 23
+                                    [id_wave] => 1
+                                    [id_risposta] => 
+                                    [valore_risposta] => 
+                                    [id_valore_risposta] => 2
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1485341724
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 524
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-25T11:55:42+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1485341742
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => risposta
+                    [2] => 505100
+                    [3] => 23122
+                    [4] => 1
+                    [5] => 1
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [risposte] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id_domanda] => 13
+                                    [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                                    [id_wave] => 1
+                                    [id_risposta] => 
+                                    [valore_risposta] => 1
+                                    [id_valore_risposta] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id_domanda] => 23
+                                    [id_wave] => 1
+                                    [id_risposta] => 
+                                    [valore_risposta] => 
+                                    [id_valore_risposta] => 2
+                                )
+
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1485341742
+            [httpheaders] => Array
+                (
+                    [Accept-Encoding] => gzip,deflate
+                    [Content-Type] => application/json
+                    [Content-Length] => 524
+                    [Host] => localhost
+                    [Connection] => Keep-Alive
+                    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+                )
+
+        )
+
+)
+
+2017-01-25T11:55:42+01:00 SessionId :  ClientIP : 127.0.0.1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1485341742
+    [result] => Array
+        (
+            [request_time] => Wed Jan 25 11:55:42 CET 2017
+            [code] => 200
+            [response_time] => Wed Jan 25 11:55:42 CET 2017
+            [version_number] => 1
+            [status] => success
+            [risposta] => Array
+                (
+                    [0] => Array
+                        (
+                            [id_domanda] => 1
+                            [area] => LOCATION
+                            [ordine_area] => 1
+                            [ordine] => 1
+                            [testo] => Tipo location
+                            [tipo] => UNICA
+                            [valori_risposta] => 1:Su via;2:In centro commerciale;3:In mercato coperto;4:In mercato aperto;5:In struttura turistica
+                            [id_profilo] => 1
+                            [id_wave] => 1
+                            [id_risposta] => 
+                            [valore_risposta] => 
+                            [id_valore_risposta] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id_domanda] => 45
+                            [area] => SERVIZI
+                            [ordine_area] => 7
+                            [ordine] => 2
+                            [testo] => Orario di chiusura prevalente estivo
+                            [tipo] => ORA
+                            [valori_risposta] => 
+                            [id_profilo] => 1
+                            [id_wave] => 1
+                            [id_risposta] => 
+                            [valore_risposta] => 
+                            [id_valore_risposta] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [id_domanda] => 13
+                            [area] => APERTURA
+                            [ordine_area] => 2
+                            [ordine] => 1
+                            [testo] => Apertura stagionale
+                            [tipo] => UNICA
+                            [valori_risposta] => 1:Tutto l'anno (ad eccezione ferie);2:Stagione estiva;3:Stagione invernale;4:Discontinua
+                            [id_profilo] => 1
+                            [id_wave] => 1
+                            [id_risposta] => 1
+                            [valore_risposta] => 1
+                            [id_valore_risposta] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [id_domanda] => 23
+                            [area] => INTERNO
+                            [ordine_area] => 4
+                            [ordine] => 4
+                            [testo] => Espositori refrigerati per LS
+                            [tipo] => UNICA
+                            [valori_risposta] => 1:Si;2:No
+                            [id_profilo] => 1
+                            [id_wave] => 1
+                            [id_risposta] => 2
+                            [valore_risposta] => 
+                            [id_valore_risposta] => 2
+                        )
+
+                )
+
+        )
+
+)
+

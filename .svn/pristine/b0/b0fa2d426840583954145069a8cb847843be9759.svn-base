@@ -1,0 +1,76 @@
+<?php
+
+namespace backend\app\dao;
+
+use backend\common\dao\DAOAbstract;
+use backend\common\dao\DAOInterface;
+
+class ClienteDAO extends DAOAbstract implements DAOInterface {
+
+    public function __construct() {
+        parent::__construct();
+    } 
+
+    public function create($item) {
+        //NOP
+    }
+
+    public function delete($id) {
+        //NOP
+    }
+
+    public function read() {
+        $stmt = $this->getPdo()->prepare("SELECT * FROM anagrafica_cliente order by rag_sociale");
+        $stmt->execute();
+        return $stmt->fetchAll();
+        
+    }
+    
+    public function readDatiFatturazione($ct, $year){
+        $stmt = $this->getPdo()->prepare("
+                SELECT 
+                    CF,
+                    DIVISIONE,
+                    SUM(fatturatonetto) AS TOTFATT
+                FROM
+                    V_ORDINI
+                WHERE
+                    YEAR(dt_fattura) = :year AND CT = :ct
+                GROUP BY CT, CF, DIVISIONE
+                HAVING TOTFATT >0.0;");
+        $stmt->bindValue('year',$year);
+        $stmt->bindValue('ct',$ct);
+        $stmt->execute();
+        return $stmt->fetchAll();
+        
+    }
+    
+    public function elencoCodiciCF($ct){
+        $stmt = $this->getPdo()->prepare("
+                SELECT 
+                        CT,COD_CF, RAG_SOCIALE
+                FROM
+                    anagrafica_cliente c
+                WHERE
+                    ct = :ct and tipo = 'CF'
+                GROUP BY CT,COD_CF, RAG_SOCIALE
+                ORDER BY CT,COD_CF;");
+        $stmt->bindValue('ct',$ct);
+        $stmt->execute();
+        return $stmt->fetchAll();
+        
+    }
+
+
+    public function update($item) {
+         //NOP
+    }
+
+    public function readByID($id) {
+        $stmt = $this->getPdo()->prepare("SELECT * FROM anagrafica_cliente a where a.id = :id order by rag_sociale");
+        $stmt->bindParam('id',$id);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+
+}

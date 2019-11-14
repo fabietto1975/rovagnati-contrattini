@@ -1,0 +1,105 @@
+<?php
+
+namespace backend\app\dao;
+
+use backend\common\dao\DAOAbstract;
+use backend\common\dao\DAOInterface;
+
+class SurveyDAO extends DAOAbstract implements DAOInterface {
+
+    public function __construct() {
+        parent::__construct();
+    } 
+
+    public function create($item) {
+        //NOP
+    }
+
+    public function delete($id) {
+        //NOP
+    }
+
+    public function read() {
+    }
+
+    public function update($item) {
+         //NOP
+    }
+  
+    public function readWaveCorrente() {
+        $sql = "SELECT *
+                FROM survey_wave
+                WHERE DATA_INIZIO <= NOW() AND DATA_FINE > NOW()";
+        
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+    
+    public function readDomandeCliente($id_profilo, $id_wave) {       
+        $sql = "SELECT D.*
+                FROM survey_domanda D LEFT JOIN survey_wave_domanda W ON D.ID = W.ID_DOMANDA
+                WHERE D.ID_PROFILO = :id_profilo AND W.ID_WAVE = :id_wave";
+        
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->bindParam('id_profilo', $id_profilo);
+        $stmt->bindParam('id_wave', $id_wave);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+    
+    public function readRisposteCliente($id_cliente) {       
+        $sql = "SELECT *
+                FROM survey_risposta
+                WHERE ID_CLIENTE = :id_cliente";
+        
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->bindParam('id_cliente', $id_cliente);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+    
+    public function createRisposta($id_domanda, $id_cliente, $valore_risposta, $id_utente, $id_wave) {
+        $sql = "INSERT INTO survey_risposta (ID_DOMANDA, ID_CLIENTE, VALORE_RISPOSTA, ID_UTENTE, ID_WAVE) VALUES
+                (:id_domanda, :id_cliente, :valore_risposta, :id_utente, :id_wave)";
+        
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->bindParam('id_domanda', $id_domanda);
+        $stmt->bindParam('id_cliente', $id_cliente);
+        $stmt->bindParam('valore_risposta', $valore_risposta);
+        $stmt->bindParam('id_utente', $id_utente);
+        $stmt->bindParam('id_wave', $id_wave);
+        $stmt->execute();
+        
+        $new_id = $this->getPdo()->lastInsertId();
+        $res = $this->readByID($new_id);
+        return $res;
+    }    
+    
+    public function updateRisposta($id, $valore_risposta) {
+        $sql = "UPDATE survey_risposta
+                SET VALORE_RISPOSTA = :valore_risposta
+                    , DATA_AGGIORNAMENTO = NOW()
+                WHERE ID = :id";
+        
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->bindParam('id', $id);
+        $stmt->bindParam('valore_risposta', $valore_risposta);
+        $stmt->execute();
+        
+        $res = $this->readByID($id);
+        return $res;
+    }
+
+    public function readByID($id) {       
+        $sql = "SELECT *
+                FROM survey_risposta
+                WHERE ID = :id";
+        
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->bindParam('id', $id);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+
+}

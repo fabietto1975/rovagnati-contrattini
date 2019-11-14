@@ -1,0 +1,34 @@
+[
+    {
+        "name": "apache/log4php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/logging-log4php.git",
+            "reference": "ae4116e491d46170378c39c8c861a0153a957f5b"
+        },
+        "require": {
+            "php": ">=5.2.7"
+        },
+        "time": "2013-06-07 17:49:39",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/main/php/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "description": "A versatile logging framework for PHP",
+        "homepage": "http://logging.apache.org/log4php/",
+        "keywords": [
+            "log",
+            "logging",
+            "php"
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+<?php
+
+namespace backend\app\dao;
+
+use backend\common\dao\DAOAbstract;
+use backend\common\dao\DAOInterface;
+
+class ContrattinoDAO extends DAOAbstract implements DAOInterface {
+
+    public function __construct() {
+        parent::__construct();
+    } 
+
+    public function create($item) {
+        //NOP
+    }
+
+    public function delete($id) {
+        //NOP
+    }
+
+    public function read() {
+    }
+
+    public function readByUser($id_user) {
+        
+        $stmt = $this->getPdo()->prepare(""
+                . "SELECT ID, USERNAME, RUOLO, ID_AGENTE, ID_ISPETTORE, ID_CAPOAREA "
+                . "FROM v_anagrafica_utente u "
+                . "WHERE u.ID = :id "
+                
+        );
+        $stmt->bindValue('id',    $id_user );
+        $stmt->execute();
+        $res = $stmt->fetch();
+        if ($res==null){
+            return null;
+        }
+        $ruolo = $res['ruolo'];
+        $field = null;
+        switch($ruolo){
+            case 'AGENTE' :
+                $field = 'id_agente';
+                break;
+            case 'ISPETTORE' :
+                $field = 'id_ispettore';
+                break;
+            case 'AGENTE' :
+                $field = 'id_capoarea';
+                break;
+        } 
+        $sql = 'SELECT * FROM V_CONTRATTINI where id_cliente in (select id from anagrafica_cliente where '.$field.' = :id)';
+        //TBD: verificare anche se il contrattino e' stato modificato o creato dall'utente corrente?
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->bindParam('id',$id_user);
+        $stmt->execute();
+        $res = $stmt->fetchAll();
+        return ($res);
+    }
+
+    
+    public function update($item) {
+         //NOP
+    }
+
+    public function readByID($id) {
+        $sql = "SELECT * FROM V_CONTRATTINI WHERE ID=:id";
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->bindParam('id',$id);
+        $stmt->execute();
+        return $stmt->fetchAll();
+        
+    }
+
+}

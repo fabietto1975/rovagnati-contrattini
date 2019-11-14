@@ -1,0 +1,52 @@
+<?php
+
+namespace backend\app\dao;
+
+use backend\common\dao\DAOAbstract;
+use backend\common\dao\DAOInterface;
+
+class RispostaDAO extends DAOAbstract implements DAOInterface {
+
+    public function __construct() {
+        parent::__construct();
+    } 
+
+
+     public function  createRisposta($risposta){
+        $sql = 'INSERT INTO survey_risposta(ID_DOMANDA, ID_CLIENTE, VALORE_RISPOSTA) VALUES (?,?,?)';
+        $stmt = $this->getPdo()->prepare($sql);
+        $id_domanda = $risposta['id_domanda'];
+        $id_cliente = $risposta['id_cliente'];
+        $valore_risposta = $risposta['valore_risposta'];
+        
+        $stmt->bindValue(1, $id_domanda);
+        $stmt->bindValue(2, $id_cliente);
+        $stmt->bindValue(3, $valore_risposta);
+        $stmt->execute();
+        $id = $this->getPdo()->lastInsertId();
+        $res = $this->readByID($id);
+        return $res;
+    }
+    
+    public function create($risposta){}
+
+    public function delete($id) {
+        //NOP
+    }
+
+    public function read() {}
+
+    public function update($item) {
+         //NOP
+    }
+
+    public function readByID($id) {
+        $sql = 'SELECT * FROM  survey_risposta WHERE ID = :id_risposta';
+        $stmt = $this->getPdo()->prepare($sql);
+
+        $stmt->bindParam('id_risposta', $id);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+
+}

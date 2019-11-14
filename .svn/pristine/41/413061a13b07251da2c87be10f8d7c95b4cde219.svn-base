@@ -1,0 +1,19 @@
+{
+"name": "RovagnatiAPI",
+    "description": "MarniPlugin",
+    "config": {
+        "vendor-dir": "backend\\libraries"
+    },
+    
+    "require": {
+        "apache/log4php": "dev-master" ,
+        "firebase/php-jwt": "dev-master",
+        "lisachenko/go-aop-php": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "backend\\": "backend"
+        },
+        "files": ["config.php"]
+    } 
+}

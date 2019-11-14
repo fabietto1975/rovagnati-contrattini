@@ -1,0 +1,92 @@
+<?php
+
+namespace backend\app\dao;
+
+use backend\common\dao\DAOAbstract;
+use backend\common\dao\DAOInterface;
+
+class UserDAO extends DAOAbstract implements DAOInterface {
+
+    public function __construct() {
+        parent::__construct();
+    } 
+
+    public function create($item) {
+        //NOP
+    }
+
+    public function delete($id) {
+        //NOP
+    }
+
+    public function readByID($id) {
+        //NOP
+    }
+
+    public function read() {
+        
+    }
+
+    public function update($item) {
+        //NOP
+    }
+
+    public function login($username, $password) {
+        $stmt = $this->getPdo()->prepare(""
+                . "SELECT * "
+                . "FROM anagrafica_utente u "
+                . "WHERE u.USERNAME = :username and md5(:password) = u.password "
+                
+        );
+        $stmt->bindValue('username',    $username );
+        $stmt->bindValue('password',    $password);
+        $stmt->execute();
+        $res = $stmt->fetch();
+        if ($res!=null) {
+            //Lettura dei clienti collegati
+            $sql = "SELECT c.ID AS ID,
+                        c.COD_CLI AS COD_CLIENTE,
+                        c.RAG_SOCIALE AS NOME,
+                        c.INDIRIZZO AS VIA,
+                        c.CAP AS CAP,
+                        c.LOCALITA AS CITTA,
+                        c.PROVINCIA_NAZIONE AS PROVINCIA,
+                        c.NAZIONE as NAZIONE,
+                        c.COD_CF AS COD_FISC,
+                        c.AGENTE AS COD_ISPETTORE,
+                        c.COD_ISPETTORE AS COD_ISPETTORE,
+                        c.COD_CAPO_AREA AS COD_CAPOAREA,
+                        c.LATITUDINE, c.LONGITUDINE "
+                    . " FROM anagrafica_cliente c WHERE tipo ='DM' and nazione='IT' ";
+            $ruolo = $res['ruolo'];
+            
+            switch ($ruolo){
+                case 'AGENTE':
+                    $sql .= " AND c.agente = :cod_dipendente";
+                    break;
+                case 'ISPETTORE':
+                    $sql .= " AND c.cod_ispettore = :cod_dipendente";
+                    break;
+                case 'CAPOAREA':
+                    $sql .= " AND c.cod_capo_area = :cod_dipendente";
+                    break;
+            }
+            $sql .= ' ORDER BY c.RAG_SOCIALE';
+            $stmt = $this->getPdo()->prepare($sql);
+            $stmt->bindValue('cod_dipendente', $res['cod_dipendente']);
+            $stmt->execute();
+            $clienti = $stmt->fetchAll();
+            $res['cliente'] = $clienti;
+            return array(
+                'status' => 'OK', 
+                'res' => $res
+            );
+        } else {
+            return array(
+                'status' => 'KO',
+                'error' => 'LOGIN_ERROR'
+            );
+        }
+    }
+
+}

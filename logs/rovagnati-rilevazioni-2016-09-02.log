@@ -1,0 +1,123 @@
+2016-09-02T14:10:52+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1472818250
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 562688
+                    [3] => parametridicontrollo
+                    [4] => 2016
+                    [5] => 08
+                    [6] => 5
+                    [7] => 073
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1472818250
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.89 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-02T14:11:01+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1472818250
+    [result] => Array
+        (
+            [request_time] => Fri Sep 2 14:10:50 CEST 2016
+            [code] => 404
+            [response_time] => Fri Sep 2 14:11:01 CEST 2016
+            [status] => fail
+            [message] => nessun dato trovato
+            [error] => NO_DATA
+        )
+
+)
+
+2016-09-02T14:29:54+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1472819394
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 562688
+                    [3] => parametridicontrollo
+                    [4] => 2015
+                    [5] => 07
+                    [6] => 1
+                    [7] => LS
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1472819394
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.89 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-09-02T14:30:00+02:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1472819394
+    [result] => Array
+        (
+            [request_time] => Fri Sep 2 14:29:54 CEST 2016
+            [code] => 200
+            [response_time] => Fri Sep 2 14:30:00 CEST 2016
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [ct] => 2014828
+                            [cf] => 2014828
+                            [cod_divisione] => LS
+                            [totfattnetto] => 6751.700
+                            [totfattlordo] => 6768.270
+                            [sconto] => 0.2448188
+                            [kgfatturati] => 360.783
+                            [prezzokg] => 18.7599471
+                        )
+
+                )
+
+        )
+
+)
+

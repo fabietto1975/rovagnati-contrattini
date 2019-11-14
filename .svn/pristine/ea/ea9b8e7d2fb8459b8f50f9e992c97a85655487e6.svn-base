@@ -1,0 +1,8 @@
+<?php
+/* VTigerCRM properties */
+$vtigercrm['url'] = 'http://localhost:8080/vtigercrm-marni';
+$vtigercrm['username'] = 'admin';
+$vtigercrm['accesskey'] = 'maLRGKK1Vfj4xlrY';
+
+/* BarcodeGenerator Servlet */
+$barcodeGeneratorServletURI = 'http://10.55.20.16:8080/BarcodeGeneratorMarni/BarcodeService';

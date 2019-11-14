@@ -1,0 +1,141 @@
+<?php
+
+namespace backend\app\dao;
+
+use backend\common\dao\DAOAbstract;
+use backend\common\dao\DAOInterface;
+
+class ClienteDAO extends DAOAbstract implements DAOInterface {
+
+    public function __construct() {
+        parent::__construct();
+    } 
+
+    public function create($item) {
+        //NOP
+    }
+
+    public function delete($id) {
+        //NOP
+    }
+
+    public function read() {
+        $stmt = $this->getPdo()->prepare("SELECT * FROM anagrafica_cliente order by rag_sociale");
+        $stmt->execute();
+        return $stmt->fetchAll();
+        
+    }
+    
+    public function readParametriControllo($ct, $year, $month, $id_livello, $desc_livello){
+        
+        $livello ='';
+        switch ($id_livello) {
+            case "5":
+                $livello = "COD_PRODOTTO";
+                break;
+            case "4":
+                $livello = "COD_TIPO;";
+                break;
+            case "3":
+                $livello = "COD_LINEA";
+                break;
+            case "2":
+                $livello = "COD_FAMIGLIA";
+                break;
+            case "1":
+                $livello = "COD_DIVISIONE";
+                break;
+            default:
+                break;
+        }
+        
+        $sql = "SELECT 
+                    CT,
+                    CF,
+                    ".$livello.",
+                    SUM(fatturatonetto) AS TOTFATTNETTO,
+                    SUM(fatturatolordo) AS TOTFATTLORDO,
+                    100*(1-SUM(fatturatonetto)/SUM(fatturatolordo)) AS SCONTO,
+                    SUM(KGFATTURATI) as KGFATTURATI,
+                    SUM(fatturatolordo)/SUM(KGFATTURATI) AS PREZZOKG
+                FROM
+                    V_ORDINI
+                WHERE
+                    CT = :ct AND ".$livello." = :desc_livello and DT_FATTURA < :topdate and  DT_FATTURA>=:bottomdate  
+                GROUP BY CT, CF, ".$livello."
+                UNION
+                SELECT
+                    CT,
+                    CT AS CF,
+                    ".$livello.",
+                    SUM(fatturatonetto) AS TOTFATTNETTO,
+                    SUM(fatturatolordo) AS TOTFATTLORDO,
+                    100*(1-SUM(fatturatonetto)/SUM(fatturatolordo)) AS SCONTO,
+                    SUM(KGFATTURATI) as KGFATTURATI,
+                    SUM(fatturatolordo)/SUM(KGFATTURATI) AS PREZZOKG
+                FROM
+                    V_ORDINI
+                WHERE
+                    CT = :ct AND ".$livello." = :desc_livello and DT_FATTURA < :topdate and  DT_FATTURA>=:bottomdate  
+                GROUP BY CT, ".$livello.";";
+        $stmt = $this->getPdo()->prepare($sql);
+        $topdate = $year.'-'.$month.'-01';
+        $bottomdate = (((int)$year-1)).'-'.$month.'-01';
+        $stmt->bindValue('desc_livello',$desc_livello);
+        $stmt->bindValue('bottomdate',$bottomdate);
+        $stmt->bindValue('topdate',$topdate);
+        $stmt->bindValue('ct',$ct);
+        $stmt->execute();
+        return $stmt->fetchAll();
+        
+    }
+    
+    public function readDatiFatturazione($ct, $year){
+        $stmt = $this->getPdo()->prepare("
+                SELECT 
+                    CF,
+                    DIVISIONE,
+                    SUM(fatturatonetto) AS TOTFATT
+                FROM
+                    V_ORDINI
+                WHERE
+                    YEAR(dt_fattura) = :year AND CT = :ct
+                GROUP BY CT, CF, DIVISIONE
+                HAVING TOTFATT >0.0;");
+        $stmt->bindValue('year',$year);
+        $stmt->bindValue('ct',$ct);
+        $stmt->execute();
+        return $stmt->fetchAll();
+        
+    }
+    
+    
+    public function elencoCodiciCF($ct){
+        $stmt = $this->getPdo()->prepare("
+                SELECT 
+                        CT,COD_CF, RAG_SOCIALE
+                FROM
+                    anagrafica_cliente c
+                WHERE
+                    ct = :ct and tipo = 'CF'
+                GROUP BY CT,COD_CF, RAG_SOCIALE
+                ORDER BY CT,COD_CF;");
+        $stmt->bindValue('ct',$ct);
+        $stmt->execute();
+        return $stmt->fetchAll();
+        
+    }
+
+
+    public function update($item) {
+         //NOP
+    }
+
+    public function readByID($id) {
+        $stmt = $this->getPdo()->prepare("SELECT * FROM anagrafica_cliente a where a.id = :id order by rag_sociale");
+        $stmt->bindParam('id',$id);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+
+}

@@ -1,0 +1,90 @@
+<?php
+
+namespace backend\app\dao;
+
+use backend\common\dao\DAOAbstract;
+use backend\common\dao\DAOInterface;
+
+class UserDAO extends DAOAbstract implements DAOInterface {
+
+    public function __construct() {
+        parent::__construct();
+    } 
+
+    public function create($item) {
+        //NOP
+    }
+
+    public function delete($id) {
+        //NOP
+    }
+
+    public function readByID($id) {
+        //NOP
+    }
+
+    public function read() {
+        
+    }
+
+    public function update($item) {
+        //NOP
+    }
+
+    public function login($username, $password) {
+        $stmt = $this->getPdo()->prepare(""
+                . "SELECT ID, USERNAME, RUOLO, ID_AGENTE, ID_ISPETTORE, ID_CAPOAREA "
+                . "FROM v_anagrafica_utente u "
+                . "WHERE u.USERNAME = :username and md5(:password) = u.password "
+                
+        );
+        $stmt->bindValue('username',    $username );
+        $stmt->bindValue('password',    $password);
+        $stmt->execute();
+        $res = $stmt->fetch();
+        if ($res!=null) {
+            //Lettura dei clienti collegati
+            $sql = "SELECT * "
+                    . " FROM v_anagrafica_cliente c ";
+            $ruolo = $res['ruolo'];
+            
+            switch ($ruolo){
+                case 'AGENTE':
+                    $sql .= " WHERE c.id_agente = :id_agente";
+                    break;
+                case 'ISPETTORE':
+                    $sql .= " WHERE c.id_ispettore = :id_ispettore";
+                    break;
+                case 'CAPOAREA':
+                    $sql .= " WHERE c.id_capoarea = :id_capoarea";
+                    break;
+            }
+            $sql .= ' ORDER BY c.nome';
+            $stmt = $this->getPdo()->prepare($sql);
+            switch ($ruolo){
+                case 'AGENTE':
+                    $stmt->bindValue('id_agente', $res['id_agente']);
+                    break;
+                case 'ISPETTORE':
+                    $stmt->bindValue('id_ispettore', $res['id_ispettore']);
+                    break;
+                case 'CAPOAREA':
+                    $stmt->bindValue('id_capoarea', $res['id_capoarea']);
+                    break;
+            };
+            $stmt->execute();
+            $clienti = $stmt->fetchAll();
+            $res['cliente'] = $clienti;
+            return array(
+                'status' => 'OK', 
+                'res' => $res
+            );
+        } else {
+            return array(
+                'status' => 'KO',
+                'error' => 'LOGIN_ERROR'
+            );
+        }
+    }
+
+}

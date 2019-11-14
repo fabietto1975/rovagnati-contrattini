@@ -1,0 +1,1680 @@
+2018-12-16T10:57:39+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544954258
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => fasceordine
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544954258
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-12-16T11:00:29+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544954429
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => fasceordine
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544954429
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-12-16T11:00:31+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544954431
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => fasceordine
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544954431
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-12-16T11:00:55+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544954455
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => fasceordine
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544954455
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-12-16T11:02:52+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544954572
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => fasceordine
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544954572
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-12-16T11:04:00+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544954640
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => fasceordine
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544954640
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-12-16T11:04:30+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544954670
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => fasceordine
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544954670
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-12-16T11:04:52+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544954691
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => fasceordine
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544954691
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-12-16T11:05:20+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544954720
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => fasceordine
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544954720
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Cache-Control] => max-age=0
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, br
+                    [Accept-Language] => it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+                )
+
+        )
+
+)
+
+2018-12-16T11:05:20+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544954720
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:05:20 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:05:20 CET 2018
+            [version_number] => 1
+            [status] => success
+            [fasceordine] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [label] => 350 €
+                            [valore] => 350
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [label] => 500 €
+                            [valore] => 500
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 3
+                            [label] => 750 €
+                            [valore] => 750
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 4
+                            [label] => 1000 €
+                            [valore] => 1000
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 5
+                            [label] => 1250 €
+                            [valore] => 1250
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 6
+                            [label] => 1350 €
+                            [valore] => 1350
+                        )
+
+                )
+
+        )
+
+)
+
+2018-12-16T11:29:59+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956199
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956199
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => 1c2e9b77-876d-40cc-a066-80babd3f2714
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 0
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:30:00+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956199
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:29:59 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:30:00 CET 2018
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(265): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\BaseAdvice::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(74): backend\app\service\ContrattinoService->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2018-12-16T11:32:01+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956320
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956320
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => 9dedb2fb-45c4-494e-b758-9b9710b34cd0
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 0
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:32:01+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956320
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:32:00 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:32:01 CET 2018
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(265): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\BaseAdvice::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(74): backend\app\service\ContrattinoService->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2018-12-16T11:35:20+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956520
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956520
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => cb2d0cbb-083e-4f25-ba90-92cd7eed34e6
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 28
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:35:20+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956520
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:35:20 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:35:20 CET 2018
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(265): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(74): backend\app\service\ContrattinoService->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2018-12-16T11:36:53+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956613
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956613
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => edbc6b57-621d-4e8b-8c4e-ef486a5ae6f0
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 56
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:36:53+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956613
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:36:53 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:36:53 CET 2018
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(265): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(74): backend\app\service\ContrattinoService->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2018-12-16T11:37:52+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956672
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956672
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => df8f1541-8ba4-4690-ba39-940fc3f04b09
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 94
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:37:52+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956672
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:37:52 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:37:52 CET 2018
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(265): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(74): backend\app\service\ContrattinoService->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2018-12-16T11:40:49+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956849
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956849
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => 397ee873-023d-4b51-a7d7-c9a3078d1234
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 94
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:41:04+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956864
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956864
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => eeb1c6dc-6d08-484c-8f3b-93bf2e11db69
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 94
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:41:04+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956864
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:41:04 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:41:04 CET 2018
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(266): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\BaseAdvice::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(74): backend\app\service\ContrattinoService->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2018-12-16T11:41:08+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956868
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956868
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => 2210e107-eb4f-468b-809d-4f610654dc0f
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 94
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:41:08+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956868
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:41:08 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:41:08 CET 2018
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(266): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(74): backend\app\service\ContrattinoService->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\MethodAroundInterceptor::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#18 {main}
+                )
+
+        )
+
+)
+
+2018-12-16T11:41:28+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956888
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956888
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => e18bd14f-8b28-4f4b-ae8d-4938aacb2ded
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 94
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:42:02+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956921
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956921
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => b07670f9-3f34-470b-b09d-d8ab727615cd
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 94
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:42:41+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956961
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956961
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => 4caeb6b5-bdb1-48d0-9f06-b29d22595b70
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 94
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:42:55+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544956975
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544956975
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => 85380031-5288-4282-8b8c-8dee7bfc54f1
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 94
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:43:46+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957026
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544957026
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => 25cceeb0-5bf5-4ef4-818d-7ce69d857889
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 94
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:44:48+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957088
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544957088
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => cec3610b-6d5b-4932-ba22-d00ad43eba0f
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 112
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:45:21+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957121
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544957121
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => 9e43a68d-c3be-4f08-be77-a83f9f30a368
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 112
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:45:47+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957147
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544957147
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => c09ea6d9-e81a-4cad-836c-ee3c1359c585
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 112
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:46:29+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957189
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1544957189
+            [httpheaders] => Array
+                (
+                    [cache-control] => no-cache
+                    [Postman-Token] => 280611fc-5bd0-43e5-aad3-e25112e00263
+                    [Content-Type] => text/plain
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 112
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:46:46+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957206
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [contrattino] => Array
+                        (
+                            [id_cliente] => 505099
+                            [id_utente_crea] => 23122
+                            [tipo_contratto] => SERIJAKALA_PREMI
+                        )
+
+                )
+
+            [format] => json
+            [datetime] => 1544957206
+            [httpheaders] => Array
+                (
+                    [Content-Type] => application/json
+                    [cache-control] => no-cache
+                    [Postman-Token] => 0aa2764a-3306-40c0-9767-f318c4b20076
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 112
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:47:13+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957233
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_cliente] => 505099
+                    [id_utente_crea] => 23122
+                    [tipo_contratto] => SERIJAKALA_PREMI
+                )
+
+            [format] => json
+            [datetime] => 1544957233
+            [httpheaders] => Array
+                (
+                    [Content-Type] => application/json
+                    [cache-control] => no-cache
+                    [Postman-Token] => 556c20f4-7db7-4786-b81a-d212b3191e1b
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 95
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:47:13+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957233
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:47:13 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:47:13 CET 2018
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [status] => KO
+                    [message] => SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('QRovagnatiRoot'@'%') does not exist - #0 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(518): PDOStatement->execute()
+#1 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\dao\ContrattinoDAO.php(267): backend\app\dao\ContrattinoDAO__AopProxied->readByID('11189')
+#2 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\dao\ContrattinoDAO__AopProxied->create(Array)
+#3 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\TransactionAspect.php(21): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#4 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\dao\ContrattinoDAO__AopProxied->manageTransaction(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#5 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\BaseAdvice::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#6 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#7 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#8 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\dao\ContrattinoDAO.php(18): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\dao\ContrattinoDAO), Array)
+#9 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\service\ContrattinoService.php(55): backend\app\dao\ContrattinoDAO->create(Array)
+#10 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\rest\controllers\ContrattinoController.php(75): backend\app\service\ContrattinoService->create(Array)
+#11 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(50): backend\app\rest\controllers\ContrattinoController__AopProxied->postAction()
+#12 D:\xampp-5.6.3\htdocs\rilevazioni\backend\app\aop\aspects\SecurityAspect.php(62): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#13 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\BaseAdvice.php(194): backend\app\rest\controllers\ContrattinoController__AopProxied->checkAuthorization(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#14 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\MethodAroundInterceptor.php(34): Go\Aop\Framework\BaseAdvice::Go\Aop\Framework\{closure}(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#15 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\ClosureDynamicMethodInvocation56.php(34): Go\Aop\Framework\MethodAroundInterceptor->invoke(Object(Go\Aop\Framework\ClosureDynamicMethodInvocation56))
+#16 D:\xampp-5.6.3\htdocs\rilevazioni\backend\libraries\lisachenko\go-aop-php\src\Aop\Framework\AbstractMethodInvocation.php(115): Go\Aop\Framework\ClosureDynamicMethodInvocation56->proceed()
+#17 D:\xampp-5.6.3\htdocs\rilevazioni\rest\cache\_proxies\backend\app\rest\controllers\ContrattinoController.php(30): Go\Aop\Framework\AbstractMethodInvocation->__invoke(Object(backend\app\rest\controllers\ContrattinoController))
+#18 D:\xampp-5.6.3\htdocs\rilevazioni\rest\index.php(38): backend\app\rest\controllers\ContrattinoController->postAction()
+#19 {main}
+                )
+
+        )
+
+)
+
+2018-12-16T11:51:03+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957463
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_cliente] => 505099
+                    [id_utente_crea] => 23122
+                    [tipo_contratto] => SERIJAKALA_PREMI
+                )
+
+            [format] => json
+            [datetime] => 1544957463
+            [httpheaders] => Array
+                (
+                    [Content-Type] => application/json
+                    [cache-control] => no-cache
+                    [Postman-Token] => 8934c979-e72a-4ba6-844d-25813f0c46ac
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 95
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:51:03+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957463
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:51:03 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:51:03 CET 2018
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 11190
+                            [id_cliente] => 505099
+                            [ragione_sociale] => ROVAGNATI FRANCE
+                            [ragione_sociale_cf] => 
+                            [codice_cliente] => 90
+                            [ct] => 90
+                            [descrizione] => 
+                            [data_creazione] => 2018-12-16 11:51:03
+                            [data_aggiornamento] => 
+                            [id_utente_crea] => 23122
+                            [cod_dipendente_crea] => 11186
+                            [nome_dipendente_crea] => GIOVETTI MASSIMO
+                            [cod_dipendente_mod] => 
+                            [nome_dipendente_mod] => 
+                            [id_utente_mod] => 
+                            [stato] => 0
+                            [tipo_contratto] => SERIJAKALA_PUNTI
+                            [codice_fatturazione_totale] => 
+                            [codici_fatturazione] => 
+                            [liquidazione] => 
+                            [data_esportazione] => 
+                            [data_inserimento] => 
+                            [note_agente] => 
+                            [note_ispettore] => 
+                            [note_capoarea] => 
+                            [modalitaliquidazione] => 
+                            [tempisticadiliquidazione] => 
+                            [meseannoinizio] => 
+                            [meseannofine] => 
+                            [divisionidaconsiderare] => 
+                            [modalitadefinizioneobbiettivo] => 
+                            [modalitadefinizionepremio] => 
+                            [obbiettivo_valore_1] => 
+                            [obbiettivo_premio_1] => 
+                            [obbiettivo_valore_2] => 
+                            [obbiettivo_premio_2] => 
+                            [obbiettivo_valore_3] => 
+                            [obbiettivo_premio_3] => 
+                            [obbiettivo_valore_4] => 
+                            [obbiettivo_premio_4] => 
+                            [obbiettivo_valore_5] => 
+                            [obbiettivo_premio_5] => 
+                            [obbiettivo_qualificante_1] => 
+                            [obbiettivo_qualificante_2] => 
+                            [livello_obbiettivo_1] => 
+                            [livello_obbiettivo_2] => 
+                            [perc_target_totale_obb_qualificante] => 
+                            [obbiettivo_minimo_obb_qualificante] => 
+                            [premio1_obb_qualificante] => 
+                            [tipo1_obb_qualificante] => 
+                            [obbiettivo_ulteriore_obb_qualificante] => 
+                            [premio2_obb_qualificante] => 
+                            [tipo2_obb_qualificante] => 
+                            [supero1_tipoobbiettivo] => 
+                            [supero1_obbiettivi] => 
+                            [supero1_premio] => 
+                            [supero1_tipopremio] => 
+                            [supero2_tipoobbiettivo] => 
+                            [supero2_obbiettivi] => 
+                            [supero2_premio] => 
+                            [supero2_tipopremio] => 
+                            [supero3_tipoobbiettivo] => 
+                            [supero3_obbiettivi] => 
+                            [supero3_premio] => 
+                            [supero3_tipopremio] => 
+                            [supero4_tipoobbiettivo] => 
+                            [supero4_obbiettivi] => 
+                            [supero4_premio] => 
+                            [supero4_tipopremio] => 
+                            [supero5_tipoobbiettivo] => 
+                            [supero5_obbiettivi] => 
+                            [supero5_premio] => 
+                            [supero5_tipopremio] => 
+                            [tcs_livello_obbiettivo_1] => 
+                            [tcs_obbiettivo_1] => 
+                            [tcs_sconto_fattura_1] => 
+                            [tcs_livello_obbiettivo_2] => 
+                            [tcs_obbiettivo_2] => 
+                            [tcs_sconto_fattura_2] => 
+                            [tcs_livello_obbiettivo_3] => 
+                            [tcs_obbiettivo_3] => 
+                            [tcs_sconto_fattura_3] => 
+                            [tcs_livello_obbiettivo_4] => 
+                            [tcs_obbiettivo_4] => 
+                            [tcs_sconto_fattura_4] => 
+                            [tcs_livello_obbiettivo_5] => 
+                            [tcs_obbiettivo_5] => 
+                            [tcs_sconto_fattura_5] => 
+                            [id_fascia] => 
+                            [id_premio_incremento_fatturato] => 
+                            [descrizione_premio_incremento_fatturato] => 
+                            [produttore_premio_incremento_fatturato] => 
+                            [label_fascia_premio_incremento_fatturato] => 
+                            [id_premio_punti_1] => 
+                            [descrizione_premio_punti_1] => 
+                            [produttore_premio_punti_1] => 
+                            [punti_kg_1] => 
+                            [id_premio_punti_2] => 
+                            [descrizione_premio_punti_2] => 
+                            [produttore_premio_punti_2] => 
+                            [punti_kg_2] => 
+                            [id_premio_punti_3] => 
+                            [descrizione_premio_punti_3] => 
+                            [produttore_premio_punti_3] => 
+                            [punti_kg_3] => 
+                            [wave_id] => 
+                            [descrizione_wave] => 
+                            [tipologia_wave] => 
+                        )
+
+                )
+
+        )
+
+)
+
+2018-12-16T11:52:06+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957526
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => contrattino
+                )
+
+            [verb] => POST
+            [parameters] => Array
+                (
+                    [id_cliente] => 505099
+                    [id_utente_crea] => 23122
+                    [tipo_contratto] => SERIJAKALA_PREMI
+                    [id_fascia_ordine] => 1
+                )
+
+            [format] => json
+            [datetime] => 1544957526
+            [httpheaders] => Array
+                (
+                    [Content-Type] => application/json
+                    [cache-control] => no-cache
+                    [Postman-Token] => 313be2b9-a722-42ae-b35b-567bfa979463
+                    [User-Agent] => PostmanRuntime/7.4.0
+                    [Accept] => */*
+                    [Host] => localhost
+                    [accept-encoding] => gzip, deflate
+                    [content-length] => 121
+                    [Connection] => keep-alive
+                )
+
+        )
+
+)
+
+2018-12-16T11:52:06+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1544957526
+    [result] => Array
+        (
+            [request_time] => Sun Dec 16 11:52:06 CET 2018
+            [code] => 200
+            [response_time] => Sun Dec 16 11:52:06 CET 2018
+            [version_number] => 1
+            [status] => success
+            [contrattino] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 11191
+                            [id_cliente] => 505099
+                            [ragione_sociale] => ROVAGNATI FRANCE
+                            [ragione_sociale_cf] => 
+                            [codice_cliente] => 90
+                            [ct] => 90
+                            [descrizione] => 
+                            [data_creazione] => 2018-12-16 11:52:06
+                            [data_aggiornamento] => 
+                            [id_utente_crea] => 23122
+                            [cod_dipendente_crea] => 11186
+                            [nome_dipendente_crea] => GIOVETTI MASSIMO
+                            [cod_dipendente_mod] => 
+                            [nome_dipendente_mod] => 
+                            [id_utente_mod] => 
+                            [stato] => 0
+                            [tipo_contratto] => SERIJAKALA_PUNTI
+                            [codice_fatturazione_totale] => 
+                            [codici_fatturazione] => 
+                            [liquidazione] => 
+                            [data_esportazione] => 
+                            [data_inserimento] => 
+                            [note_agente] => 
+                            [note_ispettore] => 
+                            [note_capoarea] => 
+                            [modalitaliquidazione] => 
+                            [tempisticadiliquidazione] => 
+                            [meseannoinizio] => 
+                            [meseannofine] => 
+                            [divisionidaconsiderare] => 
+                            [modalitadefinizioneobbiettivo] => 
+                            [modalitadefinizionepremio] => 
+                            [obbiettivo_valore_1] => 
+                            [obbiettivo_premio_1] => 
+                            [obbiettivo_valore_2] => 
+                            [obbiettivo_premio_2] => 
+                            [obbiettivo_valore_3] => 
+                            [obbiettivo_premio_3] => 
+                            [obbiettivo_valore_4] => 
+                            [obbiettivo_premio_4] => 
+                            [obbiettivo_valore_5] => 
+                            [obbiettivo_premio_5] => 
+                            [obbiettivo_qualificante_1] => 
+                            [obbiettivo_qualificante_2] => 
+                            [livello_obbiettivo_1] => 
+                            [livello_obbiettivo_2] => 
+                            [perc_target_totale_obb_qualificante] => 
+                            [obbiettivo_minimo_obb_qualificante] => 
+                            [premio1_obb_qualificante] => 
+                            [tipo1_obb_qualificante] => 
+                            [obbiettivo_ulteriore_obb_qualificante] => 
+                            [premio2_obb_qualificante] => 
+                            [tipo2_obb_qualificante] => 
+                            [supero1_tipoobbiettivo] => 
+                            [supero1_obbiettivi] => 
+                            [supero1_premio] => 
+                            [supero1_tipopremio] => 
+                            [supero2_tipoobbiettivo] => 
+                            [supero2_obbiettivi] => 
+                            [supero2_premio] => 
+                            [supero2_tipopremio] => 
+                            [supero3_tipoobbiettivo] => 
+                            [supero3_obbiettivi] => 
+                            [supero3_premio] => 
+                            [supero3_tipopremio] => 
+                            [supero4_tipoobbiettivo] => 
+                            [supero4_obbiettivi] => 
+                            [supero4_premio] => 
+                            [supero4_tipopremio] => 
+                            [supero5_tipoobbiettivo] => 
+                            [supero5_obbiettivi] => 
+                            [supero5_premio] => 
+                            [supero5_tipopremio] => 
+                            [tcs_livello_obbiettivo_1] => 
+                            [tcs_obbiettivo_1] => 
+                            [tcs_sconto_fattura_1] => 
+                            [tcs_livello_obbiettivo_2] => 
+                            [tcs_obbiettivo_2] => 
+                            [tcs_sconto_fattura_2] => 
+                            [tcs_livello_obbiettivo_3] => 
+                            [tcs_obbiettivo_3] => 
+                            [tcs_sconto_fattura_3] => 
+                            [tcs_livello_obbiettivo_4] => 
+                            [tcs_obbiettivo_4] => 
+                            [tcs_sconto_fattura_4] => 
+                            [tcs_livello_obbiettivo_5] => 
+                            [tcs_obbiettivo_5] => 
+                            [tcs_sconto_fattura_5] => 
+                            [id_fascia] => 
+                            [id_premio_incremento_fatturato] => 
+                            [descrizione_premio_incremento_fatturato] => 
+                            [produttore_premio_incremento_fatturato] => 
+                            [label_fascia_premio_incremento_fatturato] => 
+                            [id_premio_punti_1] => 
+                            [descrizione_premio_punti_1] => 
+                            [produttore_premio_punti_1] => 
+                            [punti_kg_1] => 
+                            [id_premio_punti_2] => 
+                            [descrizione_premio_punti_2] => 
+                            [produttore_premio_punti_2] => 
+                            [punti_kg_2] => 
+                            [id_premio_punti_3] => 
+                            [descrizione_premio_punti_3] => 
+                            [produttore_premio_punti_3] => 
+                            [punti_kg_3] => 
+                            [wave_id] => 
+                            [descrizione_wave] => 
+                            [tipologia_wave] => 
+                        )
+
+                )
+
+        )
+
+)
+

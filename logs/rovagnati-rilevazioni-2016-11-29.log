@@ -1,0 +1,225 @@
+2016-11-29T16:57:53+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1480435073
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => cliente
+                    [2] => 505100
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1480435073
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-11-29T16:57:53+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1480435073
+    [result] => Array
+        (
+            [request_time] => Tue Nov 29 16:57:53 CET 2016
+            [code] => 200
+            [response_time] => Tue Nov 29 16:57:53 CET 2016
+            [version_number] => 1
+            [status] => success
+            [profilocliente] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 505100
+                            [cod_cli] => 91
+                            [rag_sociale] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_cf] => 91
+                            [desc_cf] => ROVAGNATI SPA c/o STEF BENELUX
+                            [cod_centrale] => 993
+                            [desc_centrale] => GRUPPO CLIENTI INFRAGRUPPO
+                            [cod_gruppo] => 993
+                            [desc_gruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [sotto_gruppo] => 993
+                            [desc_sottogruppo] => GRUPPO CLIENTI INFRAGRUPPO
+                            [ct] => 91
+                            [desc_cliente_totale] => ROVAGNATI SPA (BELGIO)
+                            [sottocanale] => INT
+                            [canale] => INT
+                            [macrocanale] => NTR
+                            [tipo] => CF
+                            [agente] => 9315
+                            [nome_agente] => ESTERO
+                            [cod_ispettore] => 9362
+                            [nome_ispettore] => ZONA ESTERO
+                            [cod_capo_area] => 9363
+                            [desc_capo_area] => AREA ESTERO
+                            [indirizzo] => AVENUE ZENOBE GRANNE 13
+                            [cap] => 1480
+                            [provincia_nazione] => BEL
+                            [nazione] => BE
+                            [categoria_merceologica] => AZ
+                            [desc_cat_merceologica] => Azienda Alimentare
+                            [localita] => SAINTES BELGIUM
+                            [latitudine] => 0
+                            [longitudine] => 0
+                            [id_agente] => 23216
+                        )
+
+                )
+
+        )
+
+)
+
+2016-11-29T17:03:01+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1480435381
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => profilo
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1480435381
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-11-29T17:03:01+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1480435381
+    [result] => Array
+        (
+            [request_time] => Tue Nov 29 17:03:01 CET 2016
+            [status] => fail
+            [message] => Bad Request
+        )
+
+)
+
+2016-11-29T17:09:54+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1480435794
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1480435794
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-11-29T17:09:54+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1480435794
+    [result] => Array
+        (
+            [request_time] => Tue Nov 29 17:09:54 CET 2016
+            [status] => fail
+            [message] => Bad Request
+        )
+
+)
+
+2016-11-29T17:10:06+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1480435806
+    [request] => backend\common\rest\library\Request Object
+        (
+            [url_elements] => Array
+                (
+                    [0] => 
+                    [1] => survey
+                    [2] => wavecorrente
+                )
+
+            [verb] => GET
+            [parameters] => Array
+                (
+                )
+
+            [format] => json
+            [datetime] => 1480435806
+            [httpheaders] => Array
+                (
+                    [Host] => localhost
+                    [Connection] => keep-alive
+                    [Upgrade-Insecure-Requests] => 1
+                    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+                    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [Accept-Encoding] => gzip, deflate, sdch, br
+                    [Accept-Language] => it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
+                )
+
+        )
+
+)
+
+2016-11-29T17:10:06+01:00 SessionId :  ClientIP : ::1 [RESTGATEWAY] Array
+(
+    [timestamp] => 1480435806
+    [result] => Array
+        (
+            [request_time] => Tue Nov 29 17:10:06 CET 2016
+            [status] => fail
+            [message] => Bad Request
+        )
+
+)
+

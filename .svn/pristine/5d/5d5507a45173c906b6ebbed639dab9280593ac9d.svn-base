@@ -1,0 +1,38 @@
+<?php
+
+namespace backend\app\service;
+
+use backend\app\dao\RispostaDAO;
+
+class RispostaService {
+
+    private $rispostaDAO;
+
+    public function __construct() {
+        $this->rispostaDAO = new RispostaDAO();
+    }
+
+    public function read() {
+        
+    }
+
+
+    public function update($item) {
+        $res = $this->rispostaDAO->updateRisposta($item);
+        return array(
+            'status' => 'success',
+            'res' => $res
+        );
+        
+    }
+
+    public function create($item) {
+        $res = $this->rispostaDAO->createRisposta($item);
+        return array(
+            'status' => 'success',
+            'res' => $res
+        );
+        
+    }
+
+}

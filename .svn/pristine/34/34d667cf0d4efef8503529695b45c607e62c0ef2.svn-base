@@ -1,0 +1,126 @@
+<?php
+
+namespace backend\app\dao;
+
+use backend\common\dao\DAOAbstract;
+use backend\common\dao\DAOInterface;
+
+class RilevazioneDAO extends DAOAbstract implements DAOInterface {
+
+    public function __construct() {
+        parent::__construct();
+    }
+
+    public function create($schedaRilevazione) {
+        //Crea record principale sulla tabella "survey_scheda_rilevazione"
+        $sql = "INSERT INTO survey_scheda_rilevazione(DATA_CREAZIONE,DATA_AGGIORNAMENTO,ID_RILEVAZIONE,ID_UTENTE,ID_CLIENTE) "
+                . " VALUES (now(), now(),:id_rilevazione,:id_utente,:id_cliente ) ";
+        $datiRilevazione = $schedaRilevazione['rilevazione'][0];
+        $id_rilevazione = $datiRilevazione['id_rilevazione'];
+        $id_utente = $datiRilevazione['id_utente'];
+        $id_cliente = $datiRilevazione['id_cliente'];
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->bindParam('id_rilevazione', $id_rilevazione);
+        $stmt->bindParam('id_utente', $id_utente);
+        $stmt->bindParam('id_cliente', $id_cliente);
+        $stmt->execute();
+        $id_scheda_rilevazione = $this->getPdo()->lastInsertId();
+        $this->insertDatiProdotto($id_scheda_rilevazione, $schedaRilevazione);
+
+    }
+    
+    public function update($schedaRilevazione){ 
+        //Aggiorna record principale sulla tabella "survey_scheda_rilevazione"
+        $id_scheda_rilevazione = $schedaRilevazione['rilevazione'][0]['id_scheda_rilevazione'];
+        $sql = "UPDATE survey_scheda_rilevazione SET DATA_AGGIORNAMENTO = now() WHERE id = :id_scheda_rilevazione";
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->bindParam('id_scheda_rilevazione',$id_scheda_rilevazione);
+        $stmt->execute();
+        $this->insertDatiProdotto($id_scheda_rilevazione, $schedaRilevazione);
+        
+    }
+    
+    private function insertDatiProdotto($id_scheda_rilevazione,$schedaRilevazione){
+        
+        $sql = "DELETE FROM survey_informazioni_prodotto WHERE ID_SCHEDA_RILEVAZIONE =  :id_scheda_rilevazione";
+        $stmt = $this->getPdo()->prepare($sql);
+        $stmt->bindParam('id_scheda_rilevazione', $id_scheda_rilevazione);
+        $stmt->execute();
+
+        //TODO AGGIUNGERE CONCORRENTE
+        $sql = "INSERT INTO survey_informazioni_prodotto(PREZZO,ORDINE,PROMOZIONE,TOPSELL,ID_SCHEDA_RILEVAZIONE, ID_TIPO_PRODOTTO, ID_TIPO_ROVAGNATI, ID_CONCORRENTE) "
+                . " VALUES (:prezzo, :ordine, :promozione, :topsell, :id_scheda_rilevazione, :id_tipo_prodotto, :id_tipo_rovagnati, :id_concorrente) ";
+        $stmt = $this->getPdo()->prepare($sql);
+        foreach ($schedaRilevazione['rilevazione'] as $datiProdotto) {
+            $prezzo = $datiProdotto['prezzo_prodotto'];
+            $ordine = $datiProdotto['ordine_prodotto'];
+            $promozione = $datiProdotto['prodotto_in_promozione'];
+            $topsell = $datiProdotto['prodotto_top_seller'];
+            $id_tipo_prodotto = null;
+            if (isset($datiProdotto['id_tipo_prodotto'])) {
+                $id_tipo_prodotto = $datiProdotto['id_tipo_prodotto'];
+            }
+            $id_tipo_rovagnati = null;
+            if (isset($datiProdotto['id_tipo_prodotto_rovagnati'])) {
+                $id_tipo_rovagnati = $datiProdotto['id_tipo_prodotto_rovagnati'];
+            }
+            $id_concorrente = null;
+            if (isset($datiProdotto['id_concorrente'])) {
+                $id_concorrente = $datiProdotto['id_concorrente'];
+            }
+            $stmt->bindParam('prezzo', $prezzo);
+            $stmt->bindParam('ordine', $ordine);
+            $stmt->bindParam('promozione', $promozione);
+            $stmt->bindParam('topsell', $topsell);
+            $stmt->bindParam('id_scheda_rilevazione', $id_scheda_rilevazione);
+            $stmt->bindParam('id_tipo_prodotto', $id_tipo_prodotto);
+            $stmt->bindParam('id_tipo_rovagnati', $id_tipo_rovagnati);
+            $stmt->bindParam('id_concorrente', $id_concorrente);
+            $stmt->execute();
+        }
+    }
+    
+    
+    
+    public function delete($id) {
+        //NOP
+    }
+
+    public function readByID($id) {
+        //NOP
+    }
+
+    public function readRilevazioneInCorso() {
+        $stmt = $this->getPdo()->prepare("
+            SELECT 
+                s.id,s.data_inizio, s.data_fine, f.id as id_famiglia, f.desc_famiglia as descrizione_famiglia
+            FROM
+                survey_rilevazione s
+                    JOIN
+                anagrafica_famiglia_prodotto f ON (f.ID = ID_FAMIGLIA)
+            WHERE
+                s.data_inizio <= SYSDATE()
+                    AND s.data_fine >= SYSDATE();");
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+
+    public function readRilevazione($id_rilevazione, $id_punto_vendita) {
+        $stmt = $this->getPdo()->prepare(""
+                . "SELECT * FROM v_survey_scheda_rilevazione s "
+                . "WHERE s.id_rilevazione = :id_rilevazione "
+                . " and s.id_cliente= :id_punto_vendita"
+                . " order by ORDINE_PRODOTTO");
+
+        $stmt->bindParam('id_rilevazione', $id_rilevazione);
+        $stmt->bindParam('id_punto_vendita', $id_punto_vendita);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+
+
+    public function read() {
+        
+    }
+
+}
