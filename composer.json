@@ -1,6 +1,6 @@
 {
-"name": "RovagnatiAPI",
-    "description": "MarniPlugin",
+"name": "rovagnati/api",
+    "description": "rovagnati",
     "config": {
         "vendor-dir": "backend\\libraries"
     },

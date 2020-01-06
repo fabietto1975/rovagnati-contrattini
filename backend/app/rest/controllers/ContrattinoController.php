@@ -71,7 +71,6 @@ class ContrattinoController extends AbstractController {
 
     public function postAction() {   
         $parameters = $this->request->parameters;
-
         $res = $this->contrattinoService->create($parameters);
         if (isset($res['error'])) {
             $this->data['code'] = AbstractController::HTTP_CODE_NOTFOUND;

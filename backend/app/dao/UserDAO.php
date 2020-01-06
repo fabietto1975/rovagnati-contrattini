@@ -61,6 +61,55 @@ class UserDAO extends DAOAbstract implements DAOInterface {
         if ($res != null) {
             $cod_dipendente = $res['cod_dipendente'];
             $ruolo = $res['ruolo'];
+
+
+            $sqlArea = '';
+            if ($ruolo == 'AGENTE') {
+                $sqlArea = 'SELECT 
+                                p.ID_ZONA
+                            FROM
+                                anagrafica_utente u
+                                    LEFT JOIN
+                                anagrafica_utente u2 ON (u.id_referente = u2.id)
+                                    LEFT JOIN
+                                anagrafica_utente u3 ON (u2.id_referente = u3.id)
+                                    JOIN
+                                anagrafica_zonepromo p ON (p.id_capoarea = u3.nome)
+                            WHERE
+                                u.cod_dipendente = :cod_dipendente';
+            } else if ($ruolo == 'ISPETTORE') {
+                $sqlArea = 'SELECT 
+                                p.ID_ZONA
+                            FROM
+                                anagrafica_utente u
+                                    LEFT JOIN
+                                anagrafica_utente u2 ON (u.id_referente = u2.id)
+                                    JOIN
+                                anagrafica_zonepromo p ON (p.id_capoarea = u2.nome)
+                            WHERE
+                            u.cod_dipendente = :cod_dipendente';
+            } else if ($ruolo == 'CAPOAREA') {
+                $sqlArea = 'SELECT 
+                                p.ID_ZONA
+                            FROM
+                                anagrafica_utente u
+                                    JOIN
+                                anagrafica_zonepromo p ON (p.id_capoarea = u.nome)
+                            WHERE
+                            u.cod_dipendente = :cod_dipendente';
+            }
+
+            $stmt = $this->getPdo()->prepare($sqlArea);
+            $stmt->bindValue('cod_dipendente', $cod_dipendente);
+            $stmt->execute();
+            $area = $stmt->fetchAll();
+
+            if ($area != null) {
+                $res['area'] = $area[0]['id_zona'];
+            } else {
+                $res['area'] = 'NA';
+            }
+
             $colonna = '';
             if ($ruolo == 'AGENTE') {
                 $colonna = 'agente';
@@ -95,6 +144,9 @@ class UserDAO extends DAOAbstract implements DAOInterface {
             $stmt->execute();
             $comuni = $stmt->fetchAll();
             $res['comuni'] = $comuni;
+
+
+
             return array(
                 'status' => 'OK',
                 'res' => $res

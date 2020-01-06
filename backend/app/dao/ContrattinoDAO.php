@@ -239,7 +239,7 @@ class ContrattinoDAO extends DAOAbstract implements DAOInterface {
                 :tcs_fineanno_3,
                 :tcs_fineanno_4,
                 :tcs_fineanno_5);";
-        } else if (($tipoContratto == 'SERIJAKALA_PREMI') || ($tipoContratto == 'SERIJAKALA_PUNTI') || ($tipoContratto == 'SERIJAKALA_FATTURATO') || ($tipoContratto == 'GIRO')) {
+        } else if (($tipoContratto == 'SERIJAKALA_PREMI') || ($tipoContratto == 'SERIJAKALA_PUNTI') || ($tipoContratto == 'SERIJAKALA_FATTURATO') || ($tipoContratto == 'GIRO')|| ($tipoContratto == 'JAKALAAREA1')|| ($tipoContratto == 'JAKALAAREA2')) {
             $sql = 'INSERT INTO contratto_serijakala
                         (
                         ID,
@@ -249,7 +249,8 @@ class ContrattinoDAO extends DAOAbstract implements DAOInterface {
                         ID_PREMIO_PUNTI_2,
                         ID_PREMIO_PUNTI_3,
                         ID_WAVE,
-                        ID_FASCIA_ORDINE)
+                        ID_FASCIA_ORDINE,
+                        ID_INCREMENTO_FATTURATO)
                         VALUES
                         (
                         :id,
@@ -259,7 +260,9 @@ class ContrattinoDAO extends DAOAbstract implements DAOInterface {
                         :id_premio_punti_2,
                         :id_premio_punti_3,
                         :id_wave,
-                        :id_fascia_ordine);';
+                        :id_fascia_ordine,
+                        :id_incremento_fatturato
+                        );';
         } 
         $stmt = $this->getPdo()->prepare($sql);
         $this->createStatement($stmt, $contrattino, $id, $tipoContratto);
@@ -490,7 +493,9 @@ class ContrattinoDAO extends DAOAbstract implements DAOInterface {
                     tcs_fineanno_5 = if (:tcs_fineanno_5  IS NULL,tcs_fineanno_5, :tcs_fineanno_5)
                 WHERE id = :id";
 
-        } else if (($tipoContratto == 'SERIJAKALA_PREMI') ||($tipoContratto == 'SERIJAKALA_PUNTI') || ($tipoContratto == 'SERIJAKALA_FATTURATO')) {
+        } else if (($tipoContratto == 'SERIJAKALA_PREMI') ||($tipoContratto == 'SERIJAKALA_PUNTI') || ($tipoContratto == 'SERIJAKALA_FATTURATO')
+        || ($tipoContratto == "JAKALAAREA1")|| ($tipoContratto == "JAKALAAREA2")
+        ) {
             $sql = "
                 UPDATE 
                     contratto_serijakala
@@ -501,6 +506,7 @@ class ContrattinoDAO extends DAOAbstract implements DAOInterface {
                     id_premio_punti_2 = if (:id_premio_punti_2  IS NULL,id_premio_punti_2, :id_premio_punti_2),
                     id_premio_punti_3 = if (:id_premio_punti_3  IS NULL,id_premio_punti_3, :id_premio_punti_3),
                     id_fascia = if (:id_fascia  IS NULL,id_fascia, :id_fascia),
+                    id_incremento_fatturato = if (:id_incremento_fatturato  IS NULL,id_incremento_fatturato, :id_incremento_fatturato),
                     id_wave = if (:id_wave  IS NULL,id_wave, :id_wave)
                 WHERE id = :id";
             
@@ -589,7 +595,7 @@ class ContrattinoDAO extends DAOAbstract implements DAOInterface {
             $stmt->bindParam("tcs_sconto_fattura_3", isset($contrattino['tcs_sconto_fattura_3']) ? $contrattino['tcs_sconto_fattura_3'] : null);
             $stmt->bindParam("tcs_sconto_fattura_4", isset($contrattino['tcs_sconto_fattura_4']) ? $contrattino['tcs_sconto_fattura_4'] : null);
             $stmt->bindParam("tcs_sconto_fattura_5", isset($contrattino['tcs_sconto_fattura_5']) ? $contrattino['tcs_sconto_fattura_5'] : null);
-        } else if (($tipoContratto == "GIRO") || ($tipoContratto == "SERIJAKALA_PREMI") || ($tipoContratto == "SERIJAKALA_PUNTI") || (($tipoContratto == "SERIJAKALA_FATTURATO"))){
+        } else if (($tipoContratto == "GIRO") || ($tipoContratto == "SERIJAKALA_PREMI") || ($tipoContratto == "SERIJAKALA_PUNTI") || (($tipoContratto == "SERIJAKALA_FATTURATO"))|| (($tipoContratto == "JAKALAAREA1"))|| (($tipoContratto == "JAKALAAREA2"))){
             $stmt->bindParam("id_fascia", isset($contrattino['id_fascia']) ? $contrattino['id_fascia'] : null);
             $stmt->bindParam("id_premio_incremento_fatturato", isset($contrattino['id_premio_incremento_fatturato']) ? $contrattino['id_premio_incremento_fatturato'] : null);
             if (($tipoContratto == "GIRO") ){
@@ -601,6 +607,7 @@ class ContrattinoDAO extends DAOAbstract implements DAOInterface {
             $stmt->bindParam("id_premio_punti_3", isset($contrattino['id_premio_punti_3']) ? $contrattino['id_premio_punti_3'] : null);
             $stmt->bindParam("id_wave", isset($contrattino['id_wave']) ? $contrattino['id_wave'] : null);
             $stmt->bindParam("id_fascia_ordine", isset($contrattino['id_fascia_ordine']) ? $contrattino['id_fascia_ordine'] : null);
+            $stmt->bindParam("id_incremento_fatturato", isset($contrattino['id_incremento_fatturato']) ? $contrattino['id_incremento_fatturato'] : null);
         } 
         ini_set('display_errors', '1');
     }

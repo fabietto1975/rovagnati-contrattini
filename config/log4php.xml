@@ -6,7 +6,7 @@
         <layout class="LoggerLayoutPattern">
             <param name="conversionPattern" value="%date SessionId : %sid ClientIP : %s{REMOTE_ADDR} [%logger] %message%newline"  />
         </layout>
-        <param name="file" value="../logs/rovagnati-rilevazioni-%s.log" />
+        <param name="file" value="d:/TEMP/rovagnati-rilevazioni-%s.log" />
         <param name="datePattern" value="Y-m-d" />
     </appender>
     

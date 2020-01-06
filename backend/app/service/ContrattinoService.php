@@ -53,13 +53,6 @@ class ContrattinoService {
     
     public function create($contrattino){
         $res = $this->contrattinoDAO->create($contrattino);
-        if ($res==null){
-            return array(
-                'status' => 'error',
-                'message' => 'impossible creare contratto',
-                'error' => 'NO_DATA'
-            );
-        } 
         return array(
             'status' => 'success',
             'res' => $res

@@ -131,15 +131,15 @@ class ClienteDAO extends DAOAbstract implements DAOInterface {
         return $res;
     }
 
-    public function readDatiFatturazione($ct, $anno,  $datainizio, $datafine) {
+    public function readDatiFatturazione($ct, $anno,  $datainizio, $datafine, $area) {
         $sql = "
                 SELECT 
                     CF,
                     DIVISIONE,
                     SUM(fatturatonetto) AS TOTFATT
                 FROM
-                    V_ORDINI
-                WHERE  CT = :ct ";
+                    V_ORDINI o left join anagrafica_prodotti_zonepromo p on (p.id_linea=o.cod_linea)
+                WHERE  CT = :ct and p.id_zona = :id_zona";
         if ($anno!=null){
             $sql .= " AND YEAR(dt_fattura) = :anno ";
         } else {
@@ -151,12 +151,12 @@ class ClienteDAO extends DAOAbstract implements DAOInterface {
    
         $stmt = $this->getPdo()->prepare($sql);
         $stmt->bindValue('ct', $ct);
+        $stmt->bindValue('id_zona', $area);
         if ($anno!=null){
             $stmt->bindValue('anno', $anno);
         } else {
             $stmt->bindValue('datafine', $datafine);
             $stmt->bindValue('datainizio', $datainizio);
-            
         }   
         $stmt->execute();
         return $stmt->fetchAll();
@@ -213,6 +213,7 @@ class ClienteDAO extends DAOAbstract implements DAOInterface {
                         c.COD_CAPO_AREA AS COD_CAPOAREA,
                         c.LATITUDINE, c.LONGITUDINE,
                         c.tipo,
+                        p.id_zona,
                         (SELECT 
                             COUNT(DISTINCT (cod_cf)) AS totCF
                         FROM
@@ -220,7 +221,7 @@ class ClienteDAO extends DAOAbstract implements DAOInterface {
                         WHERE
                             c2.CT = c.CT AND c2.cod_cf != c2.ct) AS TOTCF
                         FROM
-                    anagrafica_cliente c
+                    anagrafica_cliente c left join anagrafica_province_zonepromo p on (p.id_provincia = c.provincia_nazione)
                 WHERE
                     c.nazione = 'IT' AND tipo !='DM' AND c.cod_cli = c.ct AND c.DESC_CAT_MERCEOLOGICA != 'Z - NON USARE'";
         } else if ($application == 'RILEVAZIONI') {

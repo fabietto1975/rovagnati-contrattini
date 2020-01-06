@@ -7,10 +7,9 @@ use backend\app\dao\ClienteDAO;
 class ClienteService {
 
     private $clienteDAO;
-    private $waveSeriJakalaService;
+
     public function __construct() {
         $this->clienteDAO = new ClienteDAO();
-        $this->waveSeriJakalaService = new WaveSeriJakalaService();
     }
     
         
@@ -64,11 +63,8 @@ class ClienteService {
     }
 
 
-    //DA MODIFICARE....
     public function readIncrementoByCluster($cf){
-        $res = $this->waveSeriJakalaService->readCurrentWavesSeriJakala();
-        
-        $this->readDatiFatturazione($id, $anno, $datainizio, $datafine);
+        $res = $this->clienteDAO->readCluster($cf);
         if ($res==null){
             $incremento=-1;
         } else {
@@ -87,11 +83,11 @@ class ClienteService {
         
     }
 
-    public function readDatiFatturazione($id, $anno, $datainizio, $datafine){
+    public function readDatiFatturazione($id, $anno, $datainizio, $datafine, $area){
         $cliente = $this->readById($id)['res'][0];
         
         $elencoCF = $this->clienteDAO->elencoCodiciCF($cliente['ct']);
-        $datiFatturazione = $this->clienteDAO->readDatiFatturazione($cliente['ct'],$anno,  $datainizio, $datafine);
+        $datiFatturazione = $this->clienteDAO->readDatiFatturazione($cliente['ct'],$anno,  $datainizio, $datafine, $area);
         
         if ($datiFatturazione==null){
             

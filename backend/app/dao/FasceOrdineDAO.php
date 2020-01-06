@@ -29,7 +29,7 @@ class FasceOrdineDAO extends DAOAbstract implements DAOInterface {
 
 
     public function read() {
-        $stmt = $this->getPdo()->prepare("select id, label, valore from anagrafica_fasce_ordine where id>0 order by ordine;");
+        $stmt = $this->getPdo()->prepare("select id, label, valore from anagrafica_fasce_ordine where id>0 and label!='DUMMY' order by ordine;");
         $stmt->execute();
         return $stmt->fetchAll();
     }

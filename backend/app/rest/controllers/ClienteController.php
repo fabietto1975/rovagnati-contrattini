@@ -36,13 +36,14 @@ class ClienteController extends AbstractController {
             } else  if (isset($this->request->url_elements [3])){
                 $action = $this->request->url_elements [3];
                 if ($action=='datifatturazione'){
+                    $area = $this->request->parameters['area'];
                     if (isset($this->request->url_elements [4])){
                         $anno = $this->request->url_elements [4] ;
-                        $res = $this->clienteService->readDatiFatturazione($id, $anno, null, null);
+                        $res = $this->clienteService->readDatiFatturazione($id, $anno, null, null, $area);
                     } else {
                         $datainizio = $this->request->parameters['datainizio'];
                         $datafine = $this->request->parameters['datafine'];
-                        $res = $this->clienteService->readDatiFatturazione($id, null, $datainizio, $datafine);
+                        $res = $this->clienteService->readDatiFatturazione($id, null, $datainizio, $datafine, $area);
                     }
                     
                 } else if ($action=='parametridicontrollo'){
